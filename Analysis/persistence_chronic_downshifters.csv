@@ -1,0 +1,383 @@
+ein,company_name,n_downshifts,n_establishments_affected,total_employees_affected,avg_dart_delta,worst_dart_delta,years_active,states
+541387365,Dollar Tree,1050,1050,23460,-0.3,-0.3,"2021, 2022","AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NJ, NM, NV, NY, OH, OK, OR, PA, SC, TN, TX, UT, VA, WA, WI"
+133139732,Tractor Supply Company,647,647,13359,-1.2,-1.2,"2021, 2022, 2023, 2024","AL, AR, DE, FL, GA, IL, IN, KS, KY, LA, MD, MN, MO, MS, MT, NC, ND, NE, NJ, NM, OH, OK, PA, SC, SD, TN, VA, WA, WI, WV"
+911223280,Costco Wholesale,511,511,157678,-1.12,-1.7,"2021, 2022, 2023","AK, AL, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, PR, SC, SD, TN, TX, UT, VA, VT, WA, WI"
+522084569,Builders FirstSource,323,323,12864,-0.48,-1.7,"2021, 2022, 2023","AK, AL, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IN, KS, KY, MA, MD, MI, MN, MS, MT, NC, ND, NJ, NM, NV, NY, OH, OK, OR, SC, SD, TN, TX, UT, VA, WA, WV"
+946001347,Facility 100; Facility 104; Facility 109; Facility 11; Facility 112; Facility 113; Facility 114; Facility 117; Facility 12; Facility 120; Facility 123; Facility 124; Facility 126; Facility 127; Facili,282,282,475402,-0.52,-0.6,"2021, 2022",CA
+43360747,BJ's,226,226,30128,-1.1,-1.1,"2021, 2022","CT, DE, FL, GA, MA, MD, ME, MI, NC, NH, NJ, NY, OH, PA, RI, SC, VA"
+860221312,O'Reilly Auto Parts,213,213,11847,-0.66,-2.6,"2022, 2023, 2024","AK, AZ, CA, CO, HI, ID, IL, KS, MA, ME, MI, MN, MT, ND, NE, NH, NV, NY, OH, OR, SD, TX, UT, VT, WA, WV"
+930798201,Fred Meyer Stores Inc; Quality Food Centers,165,165,38009,-1.91,-2.4,"2022, 2023","AK, ID, OR, WA"
+161675916,Gordon Food Service,163,163,3379,-1.2,-1.2,"2022, 2023","AL, FL, IL, IN, KY, MI, MO, NY, OH, PA, TN, TX, WI"
+870258768,Fry's Food Stores of Arizona; Smiths Food And Drug,156,156,23520,-1.27,-2.4,"2022, 2023","AZ, ID, MT, NM, NV, UT, WY"
+542049910,Advance Auto Parts; Autopart International,141,141,4532,-0.62,-2.4,"2021, 2022, 2023, 2024","AL, AZ, CA, CO, CT, FL, GA, IL, IN, KS, LA, MA, MD, ME, MO, NC, NJ, NV, NY, OH, PA, SC, TN, TX, VA, WI, WV"
+440618012,O'Reilly Auto Parts,134,134,4007,-0.5,-0.5,"2022, 2023, 2024","AL, AR, CT, FL, GA, IA, IN, KY, LA, MO, MS, NC, NM, OK, PA, RI, SC, TN, VA, WI"
+381274536,Meijer,122,122,30988,-1.0,-1.0,"2021, 2022","MI, OH"
+550484692,GO-MART INC,121,121,1286,-1.7,-1.7,"2023, 2024","OH, VA, WI, WV"
+621859500,Tractor Supply Company,114,114,2379,-1.2,-1.2,"2022, 2023, 2024",TX
+920758772,Tractor Supply Company,108,108,2467,-1.2,-1.2,"2022, 2023, 2024","AZ, CA, CO, HI, ID, NV, OR, UT"
+760428728,WorldPac,107,107,3989,-2.5,-2.5,"2021, 2022, 2023","AL, AZ, CA, CO, CT, FL, GA, IL, KY, MA, MD, MI, NC, NJ, NV, NY, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA"
+560942963,Dollar Tree,104,104,2164,-0.3,-0.3,"2021, 2022","AL, AZ, CA, CT, FL, GA, IL, KY, MD, MI, MN, MO, MS, NC, NJ, NV, NY, OH, OK, PA, TN, TX, VA, WI"
+330223829,AC SELF STORAGE ARLINGTON; AC SELF STORAGE COLORADO SPRINGS; AC SELF STORAGE HIRAM; AC SELF STORAGE MISSOURI CITY; AC SELF STORAGE PLANO; ALTA VISTA MINI STORAGE PHOENIX; BUDGET SELF STORAGE LANCASTER,100,100,186,-1.3,-1.3,"2022, 2023","AZ, CA, CO, FL, GA, IL, MA, MD, MN, NC, NY, OR, PA, TN, TX"
+383496076,Meijer,95,95,20805,-1.0,-1.0,"2021, 2022","IN, OH, WI"
+884210417,Tractor Supply Company,94,94,1835,-1.2,-1.2,"2022, 2023, 2024","CT, MA, ME, NH, NY, RI, VT"
+361150280,"W.W. Grainger, Inc.",85,85,6883,-0.7,-0.7,"2023, 2024","AL, AZ, CA, DE, FL, GA, HI, IA, IL, IN, KS, KY, LA, MD, MN, MO, MS, NC, NE, NH, NJ, NY, OH, OK, OR, PA, RI, SD, TN, TX, UT, VA, WA, WI"
+954159373,401; 402; 403; 404; 601; 602; 603; 604; 605; 606; 607; 608; 609; 610; 611; 612; 613; 614; 615; 616; 617; 618; 619; 620; 621; 622; 624; 625; 626; 627; 630; 632; 633; 634; 635; 636; 637; 639; 640; 641; ,83,83,2358,-0.6,-0.6,"2023, 2024","ID, OR, WA"
+522208088,Sodexo Inc,81,78,667,-0.96,-2.3,"2021, 2022, 2023, 2024","AL, CA, CO, CT, DC, FL, GA, IN, LA, MA, MD, ME, MI, MS, NC, NH, NJ, NY, OK, PA, PR, TX, VA, WI"
+203511076,Florida Autism Center LLC,64,64,1522,-0.7,-0.7,"2023, 2024","FL, GA, NC, TN"
+381249848,Gordon Food Service,64,64,9873,-0.6,-1.2,"2022, 2023","AL, DE, FL, GA, IL, IN, KY, MA, MD, MI, MO, NC, OH, PA, SC, TN, TX, WI, WV, WY"
+208459997,Philz Coffee Inc,62,62,1137,-0.3,-0.3,"2022, 2023","CA, DC, IL"
+822465485,Blue Sprig Pediatrics Inc,52,52,1683,-0.7,-0.7,"2023, 2024","AR, AZ, FL, IL, KY, MO, OH, OK, OR, SC, TN, TX, WA"
+621859502,Tractor Supply Company,49,49,927,-1.19,-1.2,"2021, 2022, 2023, 2024",MI
+813530904,Prime Now LLC,47,47,8854,-0.2,-0.2,"2022, 2023","CA, CO, FL, GA, IL, IN, MA, MD, MN, NC, NJ, NY, OH, PA, TN, TX, VA, WA, WI"
+223410352,"Suburban Propane, LP",46,46,1170,-0.6,-0.6,"2022, 2023","AL, CA, DE, FL, GA, IL, MA, MD, ME, NC, NH, NJ, NY, OH, PA, SC, TN, VA, VT"
+886000720,City of Henderson; The City of Henderson,40,30,3895,-1.44,-2.0,"2022, 2023, 2024",NV
+210515330,Wawa,38,38,1977,-3.2,-3.2,"2022, 2023","DE, MD, NJ, PA"
+942431278,00 MVE COR LTL; 01 MTA LTL; 02 VIS HYB; 03 PAR LTL; 04 FON LTL; 05 SMX LTL; 06 RSK LTL; 07 LAS LTL; 08 PIX LTL; 09 SAC LTL; BFL PAR; BNC HYB; BUR PAR; EKA PAR; EUG PAR; FAT PAR; HAY LTL; KNT HYB; LAX ,38,38,1132,-0.33,-5.1,"2021, 2022, 2023","AZ, CA, NV, OR, UT, WA"
+161687235,Meijer,37,37,7745,-1.0,-1.0,"2021, 2022","IL, KY"
+420465860,VON MAUR,36,36,2892,-1.3,-1.3,"2022, 2023","AL, GA, IA, IL, IN, KS, KY, MI, MN, MO, NE, NY, OH, WI"
+454703803,"Big R Holdings, Inc.",36,36,1067,-0.3,-0.3,"2022, 2023","CO, KS, NM, OK, TX"
+382335441,"Bay Human Services Inc; Bay Human Services, Inc.",29,29,353,-7.34,-9.7,"2022, 2023, 2024",MI
+954356030,Ralphs Grocery Company,28,28,2996,-1.67,-1.9,"2022, 2023",CA
+943024325,"PetSmart, Inc. 0460 MINNEAPOLIS; PetSmart, Inc. 0461 MAPLEWOOD; PetSmart, Inc. 0462 BURNSVILLE; PetSmart, Inc. 0463 ST LOUIS PARK; PetSmart, Inc. 0465 PLYMOUTH; PetSmart, Inc. 0467 WOODBURY; PetSmart,",27,27,740,-0.3,-0.3,"2023, 2024",MN
+831484034,Stryker; Stryker Employment Company; stryker,25,25,1106,-0.58,-0.7,"2023, 2024","CA, CO, FL, IN, KS, LA, MA, MD, MI, MN, MO, NE, NJ, OH, OR, PA, TN, TX, UT, VA, WI"
+311569568,Kroger Central KMA; Kroger Cincinnat Dayton KMA; Kroger Delta KMA; Kroger Louisville KMA; Ruler Stores KMA,22,22,5093,-1.85,-1.9,"2022, 2023, 2024","AR, IN, KY, OH"
+208004972,"Cowan Systems, LLC.; Single Source Logistics",20,20,1717,-0.2,-0.2,"2022, 2023","AL, CT, FL, GA, IN, KY, MA, MD, NC, NJ, NY, OH, TN, UT, VA"
+262018846,Dollar Tree,20,20,433,-0.3,-0.3,"2021, 2022","AZ, CA, DC, IN, MN, NC, NY"
+710916655,"Flyers Energy LLC.; Flyers Energy, LLC.",20,20,163,-1.45,-1.5,"2022, 2023, 2024","AZ, CA, NV"
+930929498,"""Veolia Municipal Water ConOps, Inc.""",20,20,256,-0.5,-0.5,"2022, 2023","CT, FL, IL, IN, KS, KY, MA, MI, MN, NC, OH, OK, VA, WV"
+586035822,GOODWILL INDUSTRIES SOUTHERN RIVERS,19,19,71,-3.2,-3.2,"2022, 2023","AL, GA"
+832247786,"C3 Industries, Inc; C3 Industries, Inc.",19,19,411,-0.3,-0.3,"2023, 2024","MA, MI, MO"
+521893632,Lockheed Martin Corporation; Lockheed Martin Corporation US,18,17,5143,-1.74,-3.5,"2021, 2022, 2023, 2024","CO, FL, GA, KY, MD, MS, NC, NJ, NM, SC, TX, UT"
+590718492,"Goodwill Industries-Suncoast, Inc.",17,17,616,-0.5,-0.5,"2023, 2024",FL
+560732648,"Airgas Dry Ice; Airgas Dry Ice Distribution; Airgas Dry Ice-DIST; Airgas Dry Ice-Prod; Airgas USA  LLC; Airgas USA LLC; Airgas USA, LLC; Airgas Usa, LLC",17,13,676,-0.57,-1.0,"2022, 2023, 2024","CA, CT, GA, MA, NH, NY, VA"
+410879087,Cygnus Home Service LLC dba Schwan's Home Service,16,16,409,-0.45,-1.5,"2021, 2022","AZ, CA, CO, MN, NE, OK, PA, SD, TX, WA"
+741238443,"Heart of Texas Goodwill Industries, Inc.",15,15,408,-0.98,-1.1,"2022, 2023, 2024",TX
+384092683,ImageFIRST; ImageFIRST  Healthcare Laundry Specialist; ImageFIRST Healthcare Laundry Specialist; ImageFIRST Healthcare Laundry Specialists,14,14,1422,-0.6,-0.6,"2021, 2022","CA, CO, GA, IA, KS, MI, MO, NJ, NY, PA, TX"
+910425694,The Boeing Company,14,14,15196,-1.0,-1.6,"2022, 2023","AZ, CA, FL, GA, LA, MO, UT, WA"
+440651985,O'Reilly Auto Parts,13,13,4466,-2.6,-2.6,"2022, 2023","AL, AR, FL, GA, IA, IN, MO, MS, NC, OK, TN"
+450283814,ACME Tools,13,13,582,-0.32,-0.5,"2022, 2023","IA, MN, ND"
+810902721,Goodwill Industries of Central Oklahoma,13,13,296,-1.1,-1.1,"2022, 2023",OK
+840166760,Children's Hospital Colorado,13,13,10906,-0.5,-0.5,"2022, 2023",CO
+952945008,Commodity Forwarders Inc.,13,13,454,-3.4,-3.4,"2022, 2023","AK, CA, FL, HI, IL, MA, NY, WA"
+203268390,"FlexPrint, LLC",12,12,1047,-0.93,-1.2,"2021, 2022, 2023, 2024","AZ, CA, CT, IN, OH, TX"
+260085123,"P&S Transportation; P&S Transportation, LLC",12,12,1129,-0.6,-0.6,"2021, 2022","AL, GA, IL, IN, NJ, OH, SC, TN, TX, VA"
+396090019,Clean Harbors,12,12,353,-1.12,-1.2,"2022, 2023, 2024","CA, IN, LA, MA, NH, NV"
+430398035,Macy's Inc. CARLE PLACE FURNITURE 124; Macy's Inc. FRESNO FURNITURE 365; Macy's Inc. PARAMUS FURNITURE 126; Macy's Inc. PERIMETER FURNITURE 741; Macy's Inc. PLEASANTON FURNITURE 343; Macy's Inc. ROSEV,12,12,367,-1.81,-2.1,"2021, 2022, 2023, 2024","CA, FL, GA, IL, MN, NJ, NY"
+742207268,Redi Carpet Inc,12,12,493,-0.52,-0.7,"2023, 2024","AZ, CA, CO, FL, GA, NC, PA, TX, VA"
+951947206,Ralphs Grocery Company,12,12,972,-1.15,-1.9,"2022, 2023",CA
+471523316,Zoox; Zoox Inc.,11,11,2792,-1.02,-1.1,"2022, 2023, 2024","CA, MA, NV"
+560950585,"Coca Cola Consolidated, Inc.",11,11,1337,-0.4,-0.4,"2022, 2023","KY, MD, SC, WV"
+710732557,Priority Wire & Cable Inc,11,11,527,-0.8,-0.8,"2023, 2024","AL, AR, CO, FL, GA, NV, PA, TX"
+820544687,Amazon.com Services LLC,11,11,3591,-2.91,-3.8,"2021, 2022, 2023","AZ, FL, IL, KY, NJ, NV, PA, TX, UT"
+833253005,"Heat Transfer Sales; Hoffman Hydronics, LLC",11,11,77,-1.23,-1.3,"2022, 2023, 2024","GA, NC, SC, TN, VA"
+860683885,PHOENIX LOGISTICS LLC,11,11,71,-0.4,-0.4,"2023, 2024","CA, FL, GA, IA, MS, NC, NV, OK, TX, WI"
+271076486,"""Veolia Municipal Water ConOps, Inc.""",10,10,106,-0.5,-0.5,"2022, 2023","CT, MA, MI, MS, NJ, PA, WI"
+30374134,"Empire Truck Sales; Empire Truck Sales, LLC",10,10,466,-1.14,-1.2,"2022, 2023","AL, FL, LA, MS"
+351299716,Tire Rack,10,10,481,-1.3,-1.3,"2023, 2024","CA, CO, CT, DE, GA, IN, LA, MN, NV"
+382559656,Marycrest Manor; Sanctuary at Bellbrook; Sanctuary at Mercy Village-Fort Gratiot; Sanctuary at St. Paul's-THSC; Skilled Nursing Facility-Long Term-THSC; Trinity Health Senior Communities,10,10,1282,-5.64,-6.2,"2022, 2023, 2024","CT, IN, MI, NC"
+510083365,"WL Gore & Associates, Inc.",10,10,1869,-0.7,-1.0,"2022, 2023","AZ, DE, MD"
+540409030,"Epes Transport System, LLC",10,10,366,-0.2,-0.2,"2022, 2023","GA, LA, MS, NC, SC, TN, TX, VA"
+752491201,Bimbo Bakeries USA Inc,10,10,630,-3.2,-3.2,"2023, 2024","AR, AZ, CO, CT, NJ, OH, PA, TX"
+810888278,Goodwill Industries of Central Oklahoma,10,10,234,-1.1,-1.1,"2022, 2023",OK
+042490849,Clean Harbors,9,9,241,-1.02,-2.1,"2022, 2023, 2024","MA, MI"
+201999579,C&C North America Inc.; CC North America Inc.,9,9,427,-1.16,-3.2,"2021, 2022, 2023, 2024","CA, FL, MA, TX, VA"
+237345990,"Janus Youth Programs, Inc; Janus Youth Programs,Inc",9,9,97,-0.79,-1.5,"2022, 2023, 2024","OR, WA"
+340939177,AVI Foodsystems Inc; AVI Foodsystems Inc.,9,9,367,-0.22,-1.1,"2021, 2022, 2023, 2024","AL, IN, KY, NY, OH, PA, SC, WV"
+381961328,"Aci Parts Plus Warehousing, Inc",9,9,384,-0.5,-0.5,"2022, 2023","MI, OH"
+390935768,Blains,9,9,1022,-2.46,-2.6,"2022, 2023, 2024","MI, WI"
+410948415,Fastenal Company,9,9,786,-1.66,-3.5,"2021, 2022, 2023, 2024","CT, FL, IL, NC, NE, TX, UT"
+61434797,"HOP Energy, LLC",9,9,468,-0.6,-0.6,"2022, 2023","CT, MA, NY, PA"
+840338660,Paperchef; Trinidad Benham Corp; Trinidad Benham Corporation,9,9,738,-0.76,-3.0,"2021, 2022, 2023","CA, CO, GA, ID, ND, TN, TX"
+150543657,UPSTATE CEREBRAL PALSY INC.; Upstate Cerebral Palsy,8,8,1370,-1.41,-1.6,"2021, 2022",NY
+340526850,The Sherwin-Williams Company,8,8,527,-1.15,-2.4,"2022, 2023, 2024","CA, IL, MD, MN, NC, OR, PA, SC"
+391380265,Alliant Energy,8,8,423,-0.2,-0.2,"2021, 2022","IA, WI"
+522208632,Sodexo  Inc.; Sodexo Inc,8,8,88,-0.55,-1.5,"2021, 2022, 2023, 2024","CA, CO, FL, IL, WA"
+621546470,"Capital City Leasing, Inc.",8,8,55,-1.6,-1.6,"2021, 2023","AL, IN, MI, OH, TN, TX, VA"
+926001185,State of Alaska,8,8,183,-1.86,-2.8,"2022, 2023",AK
+951801944,Behr Paint Company; Behr Process,8,8,511,-2.68,-3.2,"2022, 2023, 2024","CA, CO, FL, GA, IL, PA, TX"
+203237014,"NG Burlington NJ; Rogers Premier Enterprises; Rogers Premier Enterprises, LLC",7,7,91,-3.1,-3.1,"2022, 2023","GA, KS, LA, NC, NJ, PA, TX"
+310345740,Kroger Columbus KMA,7,7,1531,-1.9,-1.9,"2022, 2023",OH
+380900860,Kroger Michigan KMA,7,7,711,-1.0,-1.0,"2022, 2023",MI
+381918885,KUKA Systems N.A. LLC; KUKA Systems North America LLC,7,7,1581,-0.69,-1.8,"2022, 2023",MI
+411956721,"002 C.H. Robinson Company, Inc.; 022 Prime Distribution Services, Inc.; C.H. Robinson Company, Inc.",7,7,570,-3.3,-3.3,"2021, 2023","CA, FL, GA, IL, PA"
+560992165,Dollar Tree,7,7,169,-0.3,-0.3,"2021, 2022",NY
+611572941,DUNCANSVILLE OPS LLC; ERIE OPS LLC; JOHNSTOWN OPS LLC; TITUSVILLE OPS LLC; WASHINGTON OPS LLC; WELL NPSL TENANT LLC,7,7,351,-1.4,-1.4,"2022, 2023","IL, IN, PA"
+811240597,"Buy Sod, Inc",7,7,215,-1.2,-1.2,"2022, 2023","GA, NC, SC, TN"
+811432131,Hospital Housekeeping Systems,7,7,221,-0.47,-0.9,"2021, 2022","CO, LA, MI, SC, TX"
+861295043,Advantage Solutions,7,7,435,-2.7,-2.7,"2021, 2022","FL, GA, IL, NY, OH, PA, TX"
+912197729,Tesla,7,7,1348,-1.29,-3.7,"2021, 2022, 2023, 2024","CA, CO, TN, TX"
+112404503,"Alps Alpine North America, Inc",6,6,557,-1.6,-1.6,"2023, 2024","CA, MI, OH, TX, WA"
+200329186,Kellogg Company,6,6,523,-3.7,-3.7,"2022, 2023","AR, CO, MN, NC, OH, PA"
+274538887,Foundation Building Materials,6,6,118,-0.3,-0.3,"2022, 2023","FL, MA, MN, NJ, UT"
+320454370,Kindred Healthcare CORNERSTONE HOSP BROKEN ARROW; Kindred Healthcare CORNERSTONE HOSP MUSKOGEE; Kindred Healthcare CORNERSTONE HOSP OF CONROE; Kindred Healthcare CORNERSTONE HOSP-LAKE CHARLES; Kindred,6,6,705,-1.0,-1.0,"2023, 2024","LA, OK, TX"
+341725500,"Florence 2; Millwood, Inc.",6,6,167,-2.03,-2.8,"2023, 2024","NJ, OH, SC"
+362041256,"WestRock CP, LLC; Westrock CP, LLC",6,6,415,-0.2,-0.7,"2021, 2022, 2023, 2024","CA, FL, GA, NV"
+362403711,Blains,6,6,597,-2.6,-2.6,"2022, 2023",IL
+383223296,Levy Environmental Services Company; Memphis Mill Service Company,6,6,294,-0.5,-0.5,"2022, 2023","IN, OH, SC, TN, WA"
+416005890,St. Louis County,6,6,1137,-1.77,-2.5,"2022, 2023",MN
+451874001,EDPO LLC; edpo llc,6,6,168,-0.53,-0.6,"2022, 2023, 2024","CA, NY, PA"
+520782497,Federal Realty Investment Trust; Federal Realty OP LP,6,6,300,-0.3,-0.3,"2022, 2023","CA, MA, MD, PA, VA"
+730400345,ConocoPhillips,6,6,1060,-0.3,-0.3,"2023, 2024","ND, NM, TX"
+752565237,"JF Filtration, Inc.",6,6,97,-0.85,-0.9,"2021, 2022, 2023",TX
+760719837,Floor & Decor,6,6,467,-2.8,-2.8,"2021, 2022","CA, GA, MA, TX"
+20274267,Hypertherm Inc.,5,5,221,-0.7,-0.7,"2022, 2023","NH, NY"
+263858587,"Premier Warehousing Ventures; Premier Warehousing Ventures, LLC",5,5,104,-3.1,-3.1,"2022, 2023","IN, MD, OH, OR, TX"
+270187394,FCA,5,5,17544,-0.76,-2.5,"2021, 2022, 2023","IN, MI"
+330777131,Advantage Solutions; Advantage Solutions US IL CHICAGO - 1756 WEST LAKE STREET; Advantage Solutions US UT WEST JORDAN  4328 WEST 8480 SOUTH; Advantage Solutions US WI BROOKFIELD - 3225 GATEWAY ROAD,5,5,75,-2.4,-2.7,"2021, 2022, 2023, 2024","IL, OH, TX, UT, WI"
+350430700,KABELIN HARDWARE CO,5,5,107,-0.3,-0.3,"2022, 2024",IN
+351092610,Hancock Health; Hancock Regional Hospital,5,5,8010,-1.52,-1.8,"2023, 2024",IN
+363480584,NAZDAR,5,5,33,-0.1,-0.1,"2022, 2023","CA, FL, GA, IL, OH"
+364391789,"Feldco - South Bend; Feldco Factory Direct, LLC; Feldco Home Renewal",5,5,214,-0.2,-0.2,"2023, 2024","IL, IN, WI"
+381745063,"Cleary Developments; Cleary Developments, Inc; Cleary Developments, Inc.",5,5,82,-0.2,-0.2,"2022, 2023","MI, NC"
+382046626,Kloeckner Metals Corporation AFI; Kloeckner Metals Corporation APA; Kloeckner Metals Corporation DFW; Kloeckner Metals Corporation LMS; Kloeckner Metals Corporation TUM,5,5,357,-0.42,-0.6,"2022, 2024","AZ, MS, TN, TX, WA"
+382552259,"Oakley Industries Sub Assembly Division, Inc.",5,5,233,-2.56,-2.7,"2021, 2022, 2023","IL, MI, OH"
+42197449,"May Institute, Inc.",5,5,314,-1.3,-1.3,"2022, 2023",MA
+541940110,RENTOKIL NORTH AMERICA,5,5,231,-0.2,-0.2,"2023, 2024","CA, FL, MA, VA"
+560991920,Dollar Tree,5,5,115,-0.3,-0.3,"2021, 2022",MI
+562339119,Imperial Supplies,5,5,671,-0.7,-0.7,"2023, 2024","NC, NV, PA, WI"
+570851059,Opterra Solutions Inc.,5,5,90,-0.4,-0.4,"2022, 2023, 2024","GA, NC, SC, TX"
+590564454,Ro-Mac Lumber & Supply Inc,5,5,494,-0.3,-0.3,"2022, 2023",FL
+680168977,Maass Corporation SPC,5,5,892,-2.7,-2.7,"2022, 2023",CA
+760117314,Grace Management,5,5,252,-3.64,-5.0,"2022, 2023, 2024","AL, MI, MN, OK, TN"
+822577178,Appalachian Regional Healthcare,5,5,38,-1.4,-1.8,"2023, 2024",KY
+861279851,Vista Care Illinois LLC,5,5,46,-1.9,-1.9,"2022, 2023",IL
+901025756,TowerPros LLC,5,5,70,-0.6,-0.6,"2023, 2024","IL, IN, NJ, PA"
+952758280,Fluor ATLS; Fluor Infrastructure,5,5,151,-0.24,-0.7,"2021, 2022, 2023, 2024","AR, GA, NC"
+250730780,"PPG Industries, Inc.",4,4,525,-0.82,-1.4,"2022, 2023","NC, OH, PA"
+263297560,"Change Academy at Lake of the Ozarks; Change Academy at Lake of the Ozarks, LLC",4,4,166,-1.6,-1.6,"2022, 2023","CA, PA, TN, UT"
+300697518,Suddath,4,4,279,-2.0,-2.0,"2023, 2024",FL
+311678530,Kroger Texas LP Houston KMA,4,4,747,-1.9,-1.9,"2022, 2023",TX
+320625534,S & B Engineers and Constructors; S & B Infrastructure,4,4,1612,-0.1,-0.1,"2022, 2023","GA, TX"
+340714585,The Cleveland Clinic Foundation,4,4,822,-1.6,-2.2,"2022, 2023, 2024",OH
+350895832,Norton King's Daughters' Health,4,4,153,-1.95,-2.6,"2021, 2022",IN
+351463465,A-Lert Construction Services,4,4,207,-0.7,-0.7,"2023, 2024","GA, IA"
+351791590,Prime Distribution Services Inc.,4,4,512,-3.3,-3.3,"2021, 2023","CA, IN, TX"
+352039591,Elmer Buchta Trucking LLC,4,4,156,-0.1,-0.1,"2023, 2024",IN
+362167910,The Salvation Army an Illinois Corp,4,4,107,-0.45,-0.6,"2021, 2022, 2023, 2024","MI, MO"
+362373693,Blains,4,4,333,-2.6,-2.6,"2022, 2023",IL
+363261413,Allina Health,4,4,301,-4.03,-10.4,"2022, 2023, 2024",MN
+363556097,BASF Geismar; CNH Grand Island; GE Appliances; Mobis,4,4,114,-0.2,-0.2,"2022, 2023","GA, KY, LA, NE"
+370991960,O'Brien Steel Service Co.,4,4,162,-0.7,-1.1,"2022, 2023",IL
+381253012,Edw C Levy Co; Edw. C. Levy Co.,4,4,256,-0.5,-0.5,"2022, 2023","IN, MI, OH"
+390935769,Blains,4,4,531,-2.6,-2.6,"2022, 2023","MI, WI"
+391018885,Blains,4,4,469,-2.6,-2.6,"2022, 2023",WI
+391142569,Blains,4,4,345,-2.6,-2.6,"2022, 2023",IA
+454876417,Marathon Petroleum Logistics Services,4,4,261,-1.48,-3.2,"2022, 2023","KY, LA, OH"
+480196590,Dillon Stores,4,4,968,-1.9,-1.9,"2022, 2023",KS
+561373359,Dollar Tree,4,4,92,-0.3,-0.3,"2021, 2022",LA
+571088158,Intertape Polymer Group,4,4,491,-0.55,-1.0,"2023, 2024","CO, FL, IL, OH"
+582392285,"LOCKHEED MARTIN LOGISTIC SERVICES, INC.; Lockheed Martin Corporation",4,4,368,-1.55,-2.1,"2021, 2022, 2023, 2024","AZ, CA, SC, VT"
+611437265,Tangent Materials,4,4,388,-0.75,-0.8,"2022, 2023","IL, IN"
+660615815,"SUPERMERCADOS MAXIMO INC; SUPERMERCADOS MAXIMO, INC.; Supermercados Maximo Inc",4,4,27,-3.7,-3.7,"2022, 2023",PR
+752822913,"Greg W Cox Inc; Greg W. Cox, Inc.",4,4,97,-1.7,-1.7,"2023, 2024","OK, TX"
+820682657,"SELECT GENETICS, LLC",4,4,178,-1.12,-1.4,"2022, 2023","MN, MO, NC"
+860701324,"Open Loop Energy; Open Loop Energy, Inc.",4,4,168,-0.1,-0.1,"2022, 2023","AZ, NM, NV"
+873949310,"PVS Sackett-Waconia, Inc.",4,4,175,-0.8,-0.8,"2022, 2023","MD, MN, NC"
+943137786,San Francisco Department of Public Health,4,4,127,-1.8,-2.8,"2022, 2023",CA
+951055798,Northrop Grumman Systems Corporation,4,4,6228,-0.57,-1.1,"2021, 2022, 2023, 2024","CA, FL, ND"
+952128775,"PDQ Enterprises, Inc; PDQ Enterprises, Inc. dba PDQ Rentals",4,4,254,-1.2,-1.2,"2023, 2024",CA
+363734669,TruGreen,4,3,108,-0.18,-0.3,"2021, 2022, 2023","IN, OH, SC"
+160812661,Sodexo Inc,3,3,152,-0.87,-1.4,"2021, 2022, 2023, 2024","NC, NJ"
+203529371,Stella-Jones Corporation,3,3,205,-1.33,-1.9,"2021, 2022","PA, TX, WA"
+232003056,Access Services,3,3,308,-2.2,-2.2,"2023, 2024",PA
+232588479,Iron Mountain,3,3,181,-0.57,-0.6,"2021, 2022, 2024","MI, NY, PR"
+233005575,IKEA,3,3,578,-0.1,-0.1,"2022, 2023","TX, VA, WI"
+237219294,"St. Josephs Health Center Properties; St. Joseph’s Health Center Properties, Inc.",3,3,85,-2.5,-2.9,"2022, 2023, 2024",NY
+240836974,InterMetro Industries Corp,3,3,342,-3.17,-4.1,"2022, 2023","PA, TN"
+244538887,Foundation Building Materials,3,3,58,-0.4,-0.4,"2021, 2022","MA, MN, UT"
+251579001,"Hitachi Rail STS; Hitachi Rail STS (Oakland, CA)",3,3,773,-3.13,-3.3,"2022, 2023","CA, MA, PA"
+251614595,Your Building Centers; Your Building Centers Inc.,3,3,128,-0.4,-0.4,"2021, 2022",PA
+264528524,Green Rabbit Braintree - 4011; Green Rabbit Visalia - 4013; Green Rabbit Whitestown - 4012,3,3,295,-2.3,-2.3,"2023, 2024","CA, IN, MA"
+270745738,Wheel Pros; Wheel Pros LLC,3,3,240,-1.4,-2.0,"2021, 2022, 2023","CA, CO, SC"
+271348772,"Virtua Medical Group, PA",3,3,66,-1.3,-1.3,"2022, 2023",NJ
+273899821,"St. Josephs Medical, PC",3,3,137,-2.77,-2.9,"2022, 2023",NY
+310787957,Gardner Inc; Gardner Inc.,3,3,306,-0.6,-0.6,"2022, 2023","MA, NC, OH"
+330853316,Community Eldercare of San Diego,3,3,321,-9.7,-9.7,"2022, 2023",CA
+340451060,"Parker Hannifin - Hydraulic Pump and Power Systems; Parker Hannifin, Devens Facility; Parker Hannifin, Glendale Facility",3,3,461,-0.63,-1.0,"2021, 2022, 2023","AZ, MA, MN"
+341025556,OCP Contractors Inc.; OCP Contractors of Cleveland; OCP Contractors of Toldedo,3,3,404,-0.3,-0.3,"2022, 2023",OH
+350672570,CenterPoint Energy,3,3,154,-0.2,-0.2,"2021, 2022",IN
+350827455,FRANKLIN ELECTRIC,3,3,210,-0.2,-0.2,"2023, 2024","IN, WI"
+351493826,Telamon Corporation,3,3,378,-0.9,-1.5,"2021, 2022, 2023, 2024","IL, IN, OH"
+351905078,Simon,3,3,911,-1.3,-1.3,"2022, 2023","IN, NJ, NY"
+362435165,Blains,3,3,304,-2.6,-2.6,"2022, 2023",IL
+363506930,Quantix Liquid Transportation Inc.,3,3,142,-0.1,-0.1,"2021, 2022","IL, OH, TX"
+364031900,Ball FloraPlant; PanAmerican Seed Company,3,3,142,-0.9,-0.9,"2022, 2023",CA
+383067354,FANUC America Corporation,3,3,281,-0.4,-0.4,"2023, 2024","IL, MI"
+383266325,Koops,3,3,352,-0.9,-0.9,"2022, 2023","MI, SC"
+391994754,"Mi-Tech Services, Inc.",3,3,94,-1.5,-1.5,"2022, 2023","MN, WI"
+410855460,City of Eden Prairie,3,3,37,-0.2,-0.2,"2022, 2023",MN
+410991680,Fairview Health Services,3,3,187,-2.8,-6.0,"2021, 2022",MN
+42277512,"MKS Instruments, Inc.",3,3,662,-0.67,-1.0,"2022, 2023",MA
+452653391,"Verbal Beginnings, LLC",3,3,536,-0.4,-0.4,"2022, 2023",MD
+461806293,"H2A COMPLETE  II, Inc.; H2A COMPLETE II, Inc",3,3,518,-0.63,-0.7,"2021, 2022",MS
+462568903,AEGIS TREATMENT CENTERS,3,3,18,-1.17,-1.8,"2022, 2023",CA
+465455228,Titan Machinery Heartland Ag Systems,3,3,64,-1.5,-1.5,"2021, 2023","MO, MT, NE"
+522117007,Sodexo Inc,3,3,53,-1.4,-2.3,"2021, 2022",TX
+560494395,Hickory Springs Manufacturing Company,3,3,291,-0.9,-1.1,"2022, 2023","GA, NC, OK"
+560751714,Old Dominion Freight Line Inc,3,3,1240,-0.2,-0.2,"2021, 2022, 2023","CA, NC, TX"
+561390087,Harris Teeter,3,3,2356,-0.3,-0.3,"2021, 2022","NC, VA"
+566001520,County of Wayne,3,3,54,-0.73,-2.0,"2023, 2024",NC
+570248420,Sonoco,3,3,214,-0.37,-0.5,"2021, 2022, 2023, 2024","GA, TN, WI"
+580254510,GPC; NAPA; NAPA Auto Parts,3,3,210,-0.23,-0.5,"2021, 2022, 2023","CA, MI, OK"
+710516310,"Fairway Lawns, LLC",3,3,121,-0.7,-0.7,"2023, 2024",TX
+770050618,"Zanker Road Resource Management, LLC; Zanker Road Resource Management, LLC d/b/a  GreenWaste Z-Best Composting Facility; Zanker Road Resource Management, LLC d/b/a GreenWaste Florin Perkins Resource R",3,3,324,-1.1,-1.3,"2023, 2024",CA
+810860843,"2MC Employee Management; 2MC Employee Management, LLC",3,3,46,-0.5,-0.5,"2021, 2023","AR, OH"
+813622947,Waymo,3,3,57,-1.8,-1.8,"2021, 2022","AZ, CA, TX"
+832725625,US Pack Services LLC,3,3,33,-6.07,-6.6,"2021, 2022, 2023, 2024","CT, IN, MD"
+844075525,"United TN Holdings, Inc",3,3,363,-1.8,-1.8,"2022, 2023","MO, TN"
+860278038,"VisionQuest National, Ltd; VisionQuest National, Ltd.",3,3,84,-1.1,-1.1,"2023, 2024","DE, PA, TX"
+870544734,England Logistics,3,3,99,-0.8,-0.8,"2022, 2023","GA, MI, OR"
+910470860,Weyerhaeuser,3,3,348,-0.8,-1.0,"2021, 2023, 2024","MT, NC, OR"
+910873449,"Northern Lights, Inc.",3,3,83,-0.3,-0.3,"2023, 2024","FL, MA, WA"
+911295550,Core-Mark Corporate - 7011; Core-Mark US Corp - 8100; Eby-Brown Indianapolis,3,3,972,-2.3,-3.2,"2022, 2023, 2024","IL, IN, TX"
+920262996,US LBM Holdings LLC,3,3,75,-0.83,-1.9,"2023, 2024","AR, MO"
+920288333,US LBM Holdings LLC,3,3,87,-0.67,-1.0,"2023, 2024",TX
+951456805,Ralphs Grocery Company,3,3,282,-1.6,-1.9,"2022, 2023",CA
+953223133,Inline Distributing; Inline Distributing Co.,3,3,93,-1.2,-1.2,"2022, 2023","CA, NJ"
+956000735,CITY OF LA RECREATION AND PARKS,3,3,39,-2.27,-3.2,"2021, 2022",CA
+376000770,City of Effingham; ILLINOIS MUNICIPAL LEAGUE RISK MANAGEMENT ASSOC.,3,2,88,-1.77,-2.7,"2022, 2023, 2024",IL
+043061447,Stop And Shop,2,2,260,-2.5,-2.5,"2023, 2024","NY, RI"
+043481341,"Red Thread Spaces, LLC",2,2,135,-0.9,-0.9,"2023, 2024","CT, MA"
+043605194,Intertape Polymer Group,2,2,458,-0.5,-0.5,"2023, 2024","FL, OH"
+061196174,Innov8 Inc.,2,2,62,-1.3,-1.3,"2022, 2024",CT
+061519509,"Carrier Enterprise, LLC",2,2,116,-2.9,-2.9,"2023, 2024",NC
+132571986,Kuehne Nagel Inc.,2,2,131,-1.55,-2.8,"2023, 2024","AZ, TX"
+134268760,Catalent,2,2,877,-0.6,-0.8,"2022, 2023","NC, WI"
+150532254,St. Josephs Hospital Health Center,2,2,66,-2.6,-2.7,"2022, 2023",NY
+150556500,Raymour & Flanigan Furniture; Raymour and Flanigan Furniture,2,2,51,-3.15,-3.3,"2021, 2022, 2023",NY
+202482304,Assured Flooring LLC,2,2,31,-1.6,-1.6,"2023, 2024",LA
+20272825,Easterseals,2,2,16,-0.85,-1.6,"2021, 2022",NH
+203092495,San Diego Sign Company Inc,2,2,92,-0.6,-0.6,"2022, 2023","CA, PA"
+205030617,"R3 Safety, LLC (DBA R3 Safety Cincinnati); R3 Safety, LLC (DBA R3 Safety Houston)",2,2,59,-0.8,-0.8,"2022, 2023","OH, TX"
+205449049,Denali Ingredients LLC,2,2,165,-0.9,-0.9,"2023, 2024",WI
+208190334,Carestream  Health Inc.; Carestream Health Inc.,2,2,360,-0.6,-0.7,"2022, 2024","MN, NY"
+208370041,Accuray; Accuray Inc,2,2,243,-0.2,-0.2,"2023, 2024",WI
+208519734,RIVER VALLEY MARKET LLC,2,2,208,-1.9,-1.9,"2021, 2022",MA
+223479662,"ATS Test and Assembly, Inc.",2,2,133,-0.5,-0.5,"2022, 2023",NY
+223524939,Virtua Health,2,2,171,-2.2,-2.5,"2022, 2023, 2024",NJ
+223615964,Agfa Corporation,2,2,226,-0.8,-0.8,"2022, 2023, 2024",NJ
+231496543,M. Simon Zook Co.,2,2,196,-1.3,-1.3,"2023, 2024",PA
+232953829,"S.R. SMITH, LLC",2,2,201,-0.2,-0.2,"2021, 2022","AZ, TN"
+240562540,Reliance Steel and Aluminum,2,2,102,-1.3,-1.3,"2022, 2023","PA, RI"
+250530110,Calgon Carbon,2,2,318,-2.15,-3.2,"2022, 2023","MS, PA"
+251563482,Compass Group NA,2,2,50,-0.2,-0.2,"2022, 2023","AR, NY"
+251869011,Giant Company,2,2,1443,-1.5,-2.5,"2023, 2024",PA
+261317224,"A Train Staffing, LLC; Full Steam Staffing, LLC",2,2,621,-4.35,-4.4,"2021, 2022, 2023",CA
+263411165,Weaver Leather LLC,2,2,363,-0.1,-0.1,"2023, 2024",OH
+263828887,Drake Refrigerated Lines; KLB Sons,2,2,95,-0.1,-0.1,"2022, 2023",TX
+272850512,Novo Logistics,2,2,10,-4.1,-4.1,"2021, 2022","NV, SC"
+273572155,Waste Pro of Louisiana; Waste Pro of Mississippi,2,2,12,-1.4,-1.5,"2022, 2023","LA, MS"
+30284103,Aspire Living & Learning,2,2,200,-1.3,-1.3,"2022, 2023",CT
+310267820,The Dupps Company,2,2,219,-3.6,-3.6,"2021, 2022","IA, OH"
+311030364,Worthington Industries Inc,2,2,601,-2.5,-2.5,"2021, 2022",OH
+311240040,Bloomingdales,2,2,234,-1.3,-1.3,"2022, 2024","CA, CT"
+311314380,Bulk Transit Corporation; bulk transit corporation,2,2,43,-0.2,-0.2,"2022, 2023","MI, WV"
+341877860,"PPG Industries, Inc.",2,2,1032,-0.75,-0.8,"2022, 2023",OH
+352335441,"Bay Human Services, Inc.",2,2,24,-7.5,-7.5,"2022, 2023",MI
+362389043,Blains,2,2,138,-2.6,-2.6,"2022, 2023","IA, IL"
+362470182,Blains,2,2,277,-2.6,-2.6,"2022, 2023",IL
+362492854,CB2; Crate & Barrel,2,2,757,-1.5,-1.5,"2022, 2024",IL
+362556784,Blains,2,2,170,-2.6,-2.6,"2022, 2023",IL
+362653677,JMF Company,2,2,59,-0.3,-0.3,"2023, 2024","IA, IL"
+363687855,CHEMPAK INTERNATIONAL INC; KL-CHEMPAK INC,2,2,87,-1.8,-3.2,"2022, 2023","SC, TX"
+363846342,WM,2,2,304,-3.1,-3.1,"2022, 2023","OR, WA"
+366005778,City of Aurora,2,2,104,-1.15,-1.5,"2023, 2024",IL
+370475125,"Niemann Foods, Inc.",2,2,43,-0.3,-0.3,"2022, 2023",WI
+370893630,Chester Construction Supply Inc.,2,2,106,-0.4,-0.4,"2021, 2022",IL
+371132117,Denman Linen; Denman Linen Springfield,2,2,118,-0.6,-0.6,"2023, 2024",IL
+380478040,DTE Energy,2,2,60,-0.75,-0.9,"2021, 2022, 2023, 2024",MI
+390234240,ALCIVIA,2,2,14,-1.3,-1.3,"2022, 2023",WI
+390961783,"Tosca Services, LLC",2,2,152,-4.1,-4.1,"2021, 2022","GA, WI"
+391032356,Blains,2,2,175,-2.6,-2.6,"2022, 2023","IL, WI"
+391098529,"Eilertson, Inc.",2,2,165,-1.2,-1.2,"2023, 2024","IA, WI"
+391141201,"Ashley Furniture Ind. LLC; Ashley Furniture Industries, LLC",2,2,866,-1.0,-1.0,"2022, 2023",MS
+391170261,Radius Packaging,2,2,258,-0.4,-0.4,"2022, 2023",WI
+391319537,AGRACE HOSPICECARE INCORPORATED,2,2,8,-0.5,-0.5,"2022, 2023",WI
+391553370,"T&A Industrial, Ltd.",2,2,36,-0.1,-0.1,"2021, 2022",WI
+391771281,Brookdale; Brookdale Senior Living,2,2,84,-3.8,-6.2,"2022, 2023","NY, WI"
+391959368,Cascade Asset Management,2,2,106,-1.1,-1.1,"2022, 2023","IN, WI"
+410215170,Target,2,2,1885,-1.45,-1.6,"2021, 2023, 2024","IL, VA"
+410417775,3M Company,2,2,777,-0.95,-1.8,"2023, 2024","AL, MN"
+410706155,American Baptist Homes of the Midwest,2,2,168,-3.0,-3.0,"2023, 2024","IA, MN"
+411429208,St David's Center for Child & Family Development; St. David' Child and Family Development Center,2,2,319,-0.3,-0.3,"2021, 2022, 2023, 2024",MN
+416008803,City of Emily,2,2,23,-1.35,-1.4,"2021, 2022, 2023, 2024",MN
+420150820,Pro Cooperative,2,2,26,-1.1,-1.1,"2021, 2022, 2023",IA
+420325638,"HY-VEE, INC.",2,2,156,-0.2,-0.2,"2022, 2023","IA, MN"
+421308004,AYM INC,2,2,333,-0.7,-0.7,"2022, 2023","IA, TN"
+426004428,City of Council Bluffs,2,2,75,-2.95,-3.4,"2022, 2023",IA
+42655386,Bose Corporation,2,2,362,-0.15,-0.2,"2022, 2023",MA
+42672383,Home Care Specialists Inc,2,2,67,-0.2,-0.2,"2022, 2023","MA, NH"
+42704683,"Lahey Clinic Inc; Lahey Clinic, Inc",2,2,48,-1.0,-1.0,"2021, 2022",MA
+431236557,Preferred Family Healthcare,2,2,59,-0.7,-1.0,"2021, 2022, 2023","KS, MO"
+431821151,"PFS Blends; Pro Food Systems, Inc.",2,2,207,-0.65,-0.8,"2022, 2023, 2024",MO
+432093158,"Classic Rock Fabrication, LLC",2,2,32,-0.9,-0.9,"2023, 2024","NJ, PA"
+43430664,Irving Oil Terminals Inc.,2,2,22,-1.4,-1.4,"2021, 2022","ME, NH"
+43775706,Connecticut Transportation Solutions,2,2,74,-0.2,-0.2,"2022, 2023",CT
+450414000,"D&M Industries, Inc.",2,2,35,-0.8,-0.8,"2022, 2023",WI
+450460074,Prairie Holding Company,2,2,81,-0.3,-0.3,"2022, 2023",ND
+464650184,"ALL TILE HOLDINGS LLC; ALL TILE HOLDINGS, LLC",2,2,209,-0.6,-0.6,"2022, 2023","IL, IN"
+470536075,"Mid-Nebraska Individual Services, Inc.",2,2,38,-0.7,-0.7,"2023, 2024",NE
+471683389,"Loudon County Trucking, LLC",2,2,154,-0.6,-0.6,"2021, 2022",TN
+474401150,"HS Express, LLC",2,2,81,-0.6,-0.6,"2021, 2022","IL, OH"
+50533464,Wholesale Interiors,2,2,81,-0.5,-0.5,"2022, 2023",IL
+510123924,Smith & Nephew Inc.,2,2,435,-0.35,-0.5,"2021, 2023","MA, TX"
+520795508,APPALACHIAN REGIONAL HEALTHCARE; WHITESBURG ARH CLINIC,2,2,70,-2.7,-2.7,"2022, 2023",KY
+521603828,Martin Marietta Materials Inc.,2,2,198,-0.8,-0.8,"2022, 2023","MD, MI"
+522399959,"OSI GROUP LLC; OSI GROUP, LLC",2,2,284,-2.45,-2.5,"2023, 2024",IL
+540387200,Southern States Cooperative Inc.,2,2,47,-0.95,-1.6,"2022, 2023","MD, NC"
+541138147,American Woodmark Corp; Timberlake Cabinetry,2,2,134,-0.6,-0.6,"2023, 2024","NC, VA"
+561120343,Dollar Tree,2,2,42,-0.3,-0.3,"2021, 2022",GA
+561744955,Dollar Tree,2,2,40,-0.3,-0.3,"2021, 2022",VA
+561768228,LB&B Associates Inc.,2,2,134,-2.0,-3.8,"2022, 2023","OH, VA"
+562002553,Elanco Animal Health,2,2,525,-1.1,-1.1,"2023, 2024",IN
+562256592,Compass Group NA,2,2,58,-0.1,-0.1,"2022, 2023","IN, MI"
+570347524,"M. B. Kahn Construction Co. Inc.; M. B. Kahn Construction Co., Inc.",2,2,4,-0.1,-0.1,"2021, 2022, 2023",SC
+580218533,Delta Air Lines Inc.,2,2,2013,-5.8,-5.8,"2022, 2023","GA, MN"
+581960019,AGCO Corporation Corporate Office; AgRevolution,2,2,807,-2.25,-2.4,"2021, 2022, 2023","GA, IN"
+582480149,United Parcel Service Inc,2,2,431,-4.8,-5.7,"2023, 2024","IL, NJ"
+590747035,Ryder System,2,2,39,-1.3,-1.3,"2022, 2023, 2024","CT, NJ"
+591031608,"Dewar Nurseries, Inc",2,2,228,-0.4,-0.4,"2023, 2024",FL
+591506958,"Ryder System; Ryder System, Inc.",2,2,248,-1.0,-1.8,"2022, 2023, 2024","OH, TX"
+61056158,Altium Packaging,2,2,141,-0.5,-0.5,"2022, 2023","CA, NC"
+610600439,ECL Ashland Office; ELC Manchester,2,2,14,-2.6,-2.6,"2021, 2022",KY
+61533762,"Plastic Forming Company, Inc.",2,2,61,-0.2,-0.2,"2022, 2023","CT, OH"
+630944591,Polymer Industries LLC,2,2,228,-0.1,-0.1,"2021, 2022",AL
+631099646,NaphCare US Inc,2,2,23,-1.5,-1.5,"2023, 2024",NV
+631221433,"Specialty Foundry Products, Inc.; Specialty Foundry Products, inc.",2,2,29,-0.2,-0.2,"2023, 2024","AL, NC"
+731451277,"LMI Aerospace, Inc.",2,2,199,-2.0,-2.0,"2021, 2022",OK
+742958277,Baylor Scott & White Health; Baylor Scott and White Health,2,2,750,-2.25,-2.7,"2022, 2023, 2024",TX
+750865842,Brookshire Grocery Company,2,2,672,-2.5,-2.5,"2023, 2024","OK, TX"
+752702388,Texas Health Resources,2,2,3855,-2.7,-2.7,"2021, 2022",TX
+760457926,Shell Exploration and Production Company,2,2,855,-0.2,-0.2,"2022, 2023",LA
+760686861,WM,2,2,105,-2.2,-3.1,"2022, 2023","IL, SC"
+812972833,"A La Carte Foods Properties, LLC.",2,2,118,-0.7,-0.9,"2022, 2023",LA
+825501415,"McDonald Plastic Molding, Inc",2,2,97,-0.5,-0.5,"2022, 2023",WI
+830587437,"DMT Trucking; DMT Trucking, LLC",2,2,162,-0.6,-0.6,"2021, 2022","FL, OK"
+840629503,Foodservice Northland Cheese - 1036; OLM Food Systems Sioux Falls - 4040,2,2,389,-0.7,-1.0,"2023, 2024","MN, SD"
+841975890,Cresco Labs; Cresco Labs / Sunnyside Leicester,2,2,32,-0.6,-0.7,"2022, 2023",MA
+853721777,Mountain Manufacturing Coda Coffee Arizona - 4009; Mountain Manufacturing Coda Coffee Denver - 4008,2,2,79,-1.2,-1.2,"2023, 2024","AZ, CO"
+861492361,Mountain Manufacturing Great Western Alabama - 4023; Mountain Manufacturing Great Western Illinois - 4024,2,2,76,-1.4,-2.3,"2023, 2024","AL, IL"
+866000266,City of Tucson,2,2,334,-0.9,-1.4,"2022, 2023",AZ
+874327519,"US Brick Holdings, LLC",2,2,77,-0.7,-0.7,"2023, 2024","IN, TN"
+880263103,"Rhodes International, Inc.",2,2,235,-0.7,-0.7,"2022, 2023","UT, WI"
+880351165,James Hardie Building Products,2,2,706,-2.0,-2.0,"2022, 2023","CA, IL"
+886000022,Southern Nevada Adult Mental Health Services,2,2,18,-1.05,-1.9,"2023, 2024",NV
+910158750,MUTUAL MATERIALS CO,2,2,90,-0.55,-0.6,"2021, 2022, 2023, 2024",WA
+910578229,Compass Housing Alliance,2,2,121,-1.4,-1.4,"2022, 2024",WA
+912144168,"Holland Construction; Holland Construction, Inc.",2,2,44,-0.1,-0.1,"2022, 2023",CA
+920187174,Wild Planet Foods Inc,2,2,3,-0.6,-0.6,"2021, 2022","CA, PA"
+930177750,Collins; Collins Companies,2,2,122,-1.5,-2.5,"2022, 2023","OR, PA"
+930386780,ALBERTINA KERR CENTERS,2,2,57,-1.9,-1.9,"2021, 2023",OR
+930496342,Jeld-Wen Inc.,2,2,255,-1.2,-1.6,"2021, 2022, 2023","CA, TX"
+930579722,Salem Health,2,2,484,-1.7,-1.7,"2022, 2023",OR
+930584541,Nike IHM,2,2,1995,-0.3,-0.3,"2022, 2023","MO, OR"
+931069451,Signature Aviation EPIC 882; Signature Aviation EPIC 889,2,2,69,-1.4,-1.4,"2023, 2024","OR, TX"
+936002176,City of Gresham,2,2,173,-1.5,-1.5,"2022, 2023",OR
+936002231,City of Lake Oswego,2,2,20,-0.15,-0.2,"2021, 2022, 2023",OR
+936002292,Deschutes County,2,2,147,-0.85,-1.4,"2022, 2023",OR
+946000374,City of Modesto,2,2,206,-1.35,-2.6,"2023, 2024",CA
+946000454,Tulare County,2,2,174,-2.75,-4.1,"2022, 2023",CA
+952475388,Washington Iron Works; Washington Ornamental Iron Works231,2,2,400,-0.65,-0.8,"2021, 2022, 2023, 2024",CA
+954851977,"Endress+Hauser Optical Analysis, Inc.",2,2,114,-0.2,-0.2,"2022, 2023","CA, TX"
+222408251,Omega Plastics Corp.; Omega Plastics Corporation,2,1,289,-0.55,-0.6,"2022, 2023, 2024",NJ
+942815875,Berco Redwood Incorporated,2,1,267,-0.35,-0.4,"2021, 2022, 2023",CA

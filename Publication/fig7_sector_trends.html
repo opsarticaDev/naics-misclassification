@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 7: Sector Flag Rate Trends</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+
+  .chart-wrap { position: relative; width: 100%; height: 520px; }
+  .footnote { font-size: 12px; color: #666; line-height: 1.6; margin-top: 16px; padding: 12px; background: #f7f9fb; border-radius: 6px; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="footnote">
+    <strong>Key finding:</strong> Retail Trade and Accommodation/Food consistently lead all sectors in flag rate. Information sector shows the steepest decline (1.10 &rarr; 0.59), while Management shows the strongest increase (0.52 &rarr; 0.71). The middle-sector band is narrow (~0.50&ndash;0.70), indicating moderate convergence across sectors over time.
+  </div>
+</div>
+<script>
+const ctx = document.getElementById('chart').getContext('2d');
+
+// Top 5 sectors by mean rate
+const top5 = [
+  { label: 'Retail Trade (44-45)', data: [1.052, 1.077, 1.034, 1.003], color: '#C44E52', dash: [] },
+  { label: 'Information',           data: [1.099, 0.839, 0.786, 0.585], color: '#D4A843', dash: [6,3] },
+  { label: 'Accommodation/Food',    data: [0.777, 0.820, 0.811, 0.762], color: '#2C5F8A', dash: [] },
+  { label: 'Public Administration',  data: [0.778, 0.724, 0.731, 0.752], color: '#4A8C6F', dash: [] },
+  { label: 'Utilities',             data: [0.731, 0.739, 0.722, 0.719], color: '#8B6BB2', dash: [4,4] },
+];
+
+// Bottom 5 sectors by mean rate
+const bot5 = [
+  { label: 'Health Care',       data: [0.498, 0.521, 0.508, 0.514], color: '#E8855E', dash: [] },
+  { label: 'Agriculture',      data: [0.423, 0.540, 0.491, 0.496], color: '#6CA6CD', dash: [6,3] },
+  { label: 'Real Estate',      data: [0.539, 0.393, 0.431, 0.556], color: '#999999', dash: [4,4] },
+  { label: 'Construction',     data: [0.491, 0.483, 0.454, 0.453], color: '#5B8F5B', dash: [] },
+  { label: 'Finance/Insurance', data: [0.368, 0.469, 0.468, 0.448], color: '#CD853F', dash: [6,3] },
+];
+
+// Middle 10 sectors: compute min/max band
+const middle = [
+  [0.729, 0.690, 0.677, 0.613],  // Admin/Waste
+  [0.734, 0.628, 0.681, 0.712],  // Other Services
+  [0.648, 0.670, 0.592, 0.726],  // Professional Services
+  [0.734, 0.661, 0.602, 0.581],  // Mining
+  [0.670, 0.636, 0.648, 0.651],  // Education
+  [0.522, 0.680, 0.673, 0.714],  // Management
+  [0.572, 0.548, 0.526, 0.522],  // Manufacturing
+  [0.556, 0.527, 0.543, 0.542],  // Wholesale Trade
+  [0.550, 0.538, 0.546, 0.497],  // Arts/Entertainment
+  [0.558, 0.527, 0.518, 0.499],  // Transportation
+];
+const bandMax = [0, 0, 0, 0].map((_, i) => Math.max(...middle.map(m => m[i])));
+const bandMin = [0, 0, 0, 0].map((_, i) => Math.min(...middle.map(m => m[i])));
+
+const datasets = [];
+
+// Gray band (upper - using fill to lower)
+datasets.push({
+  label: 'Middle 10 (upper)',
+  data: bandMax,
+  borderColor: 'rgba(180,180,180,0.5)',
+  backgroundColor: 'rgba(200,200,200,0.25)',
+  borderWidth: 1,
+  pointRadius: 0,
+  fill: '+1',
+  order: 20,
+});
+datasets.push({
+  label: 'Middle 10 (lower)',
+  data: bandMin,
+  borderColor: 'rgba(180,180,180,0.5)',
+  backgroundColor: 'rgba(200,200,200,0.25)',
+  borderWidth: 1,
+  pointRadius: 0,
+  fill: false,
+  order: 20,
+});
+
+// Top 5
+top5.forEach(s => {
+  datasets.push({
+    label: s.label,
+    data: s.data,
+    borderColor: s.color,
+    backgroundColor: s.color,
+    borderWidth: 2.5,
+    borderDash: s.dash,
+    pointRadius: 5,
+    pointHoverRadius: 7,
+    tension: 0.2,
+    fill: false,
+    order: 1,
+  });
+});
+
+// Bottom 5
+bot5.forEach(s => {
+  datasets.push({
+    label: s.label,
+    data: s.data,
+    borderColor: s.color,
+    backgroundColor: s.color,
+    borderWidth: 2,
+    borderDash: s.dash,
+    pointRadius: 4,
+    pointHoverRadius: 6,
+    pointStyle: 'rectRot',
+    tension: 0.2,
+    fill: false,
+    order: 5,
+  });
+});
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['2021', '2022', '2023', '2024'],
+    datasets: datasets
+  },
+  plugins: [ChartDataLabels],
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: {
+          font: { size: 11 },
+          padding: 8,
+          usePointStyle: true,
+          pointStyleWidth: 14,
+          filter: function(item) {
+            return item.text !== 'Middle 10 (lower)';
+          },
+          generateLabels: function(chart) {
+            const labels = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+            return labels.filter(l => l.text !== 'Middle 10 (lower)').map(l => {
+              if (l.text === 'Middle 10 (upper)') l.text = 'Middle 10 sectors';
+              return l;
+            });
+          }
+        }
+      },
+      datalabels: {
+        display: false
+      },
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            if (context.dataset.label.includes('Middle 10')) return null;
+            return context.dataset.label + ': ' + context.raw.toFixed(3);
+          }
+        },
+        filter: function(item) {
+          return !item.dataset.label.includes('Middle 10');
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: { display: false },
+        ticks: { font: { size: 14, weight: '600' } }
+      },
+      y: {
+        beginAtZero: false,
+        min: 0.3,
+        max: 1.15,
+        title: { display: true, text: 'Flag Rate (flags per record)', font: { size: 13 } },
+        ticks: {
+          callback: function(val) { return val.toFixed(1); },
+          font: { size: 12 }
+        }
+      }
+    },
+    interaction: {
+      mode: 'nearest',
+      axis: 'x',
+      intersect: false
+    }
+  }
+});
+</script>
+</body>
+</html>

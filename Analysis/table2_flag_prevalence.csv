@@ -1,0 +1,9 @@
+flag_name,count_2021,pct_2021,count_2022,pct_2022,count_2023,pct_2023,count_2024,pct_2024,trend_direction
+Invalid NAICS Code,10050,3.16%,12866,3.71%,12252,3.11%,8963,2.26%,stable
+Incomplete NAICS Code,691,0.22%,843,0.24%,1801,0.46%,500,0.13%,increasing
+Name-NAICS Mismatch,240,0.08%,268,0.08%,276,0.07%,294,0.07%,increasing
+EIN Multi-NAICS,111561,35.08%,114318,32.96%,126316,32.04%,136937,34.56%,increasing
+NAICS Count Anomaly,289,0.09%,733,0.21%,602,0.15%,170,0.04%,decreasing
+Employee Size Anomaly,13549,4.26%,14790,4.26%,16912,4.29%,16833,4.25%,increasing
+Injury Rate Outlier,59448,18.70%,64450,18.58%,71229,18.07%,67476,17.03%,increasing
+High Emp Zero Injury,18622,5.86%,19278,5.56%,22061,5.60%,21661,5.47%,increasing

@@ -1,0 +1,21 @@
+sector,rate_2021,rate_2022,rate_2023,rate_2024,mean_rate,direction
+Retail Trade (44-45),1.0516,1.0769,1.0341,1.0031,1.0414,stable
+Information,1.0986,0.8385,0.7860,0.5850,0.8270,decreasing
+Accommodation/Food,0.7772,0.8200,0.8105,0.7624,0.7925,stable
+Public Administration,0.7784,0.7244,0.7314,0.7519,0.7465,stable
+Utilities,0.7307,0.7386,0.7222,0.7193,0.7277,stable
+Other Services,0.7337,0.6278,0.6814,0.7116,0.6886,stable
+Admin/Waste Services,0.7292,0.6897,0.6766,0.6130,0.6771,stable
+Professional Services,0.6482,0.6698,0.5915,0.7258,0.6588,stable
+Education,0.6697,0.6358,0.6479,0.6509,0.6510,stable
+Management,0.5220,0.6802,0.6728,0.7144,0.6473,increasing
+Mining,0.7342,0.6614,0.6017,0.5812,0.6446,decreasing
+Wholesale Trade,0.5561,0.5267,0.5434,0.5419,0.5420,stable
+Manufacturing (31-33),0.5720,0.5476,0.5261,0.5218,0.5419,stable
+Arts/Entertainment,0.5498,0.5383,0.5456,0.4974,0.5328,stable
+Transportation (48-49),0.5581,0.5270,0.5175,0.4989,0.5254,stable
+Health Care,0.4976,0.5212,0.5083,0.5142,0.5103,stable
+Agriculture,0.4230,0.5401,0.4907,0.4959,0.4875,stable
+Real Estate,0.5391,0.3932,0.4313,0.5562,0.4799,stable
+Construction,0.4907,0.4827,0.4544,0.4526,0.4701,stable
+Finance/Insurance,0.3678,0.4688,0.4683,0.4477,0.4382,stable

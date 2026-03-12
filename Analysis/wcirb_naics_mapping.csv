@@ -1,0 +1,25 @@
+naics_sector,sector_name,wcirb_code,wcirb_rate,wcirb_desc
+11,Agriculture/Nurseries,0005,5.91,Agriculture/Nurseries
+21,Mining/Oil & Gas,1124,4.72,Mining/Oil & Gas
+22,Utilities,7539,3.14,Utilities
+23,Construction/Carpentry,5403,11.61,Construction/Carpentry
+31,Manufacturing/Forging,3110,6.31,Manufacturing/Forging
+32,Plastics/Chemical Mfg,4496,5.24,Plastics/Chemical Mfg
+33,Metal/Electronics Mfg,3632,4.87,Metal/Electronics Mfg
+42,Wholesale Trade,8018,4.56,Wholesale Trade
+44,Retail/Grocery,8006,3.99,Retail/Grocery
+45,Retail/General Merch,8017,2.74,Retail/General Merch
+48,Transportation/Trucking,7219,7.88,Transportation/Trucking
+49,Warehousing,8292,7.18,Warehousing
+51,Information/Tech,8859,0.42,Information/Tech
+52,Finance/Insurance,8810,0.21,Finance/Insurance
+53,Real Estate,8741,0.54,Real Estate
+54,Professional Services,8810,0.21,Professional Services
+55,Management of Companies,8810,0.21,Management of Companies
+56,Admin/Waste Services,9014,3.82,Admin/Waste Services
+61,Education,8868,0.64,Education
+62,Healthcare/Physicians,8834,0.94,Healthcare/Physicians
+71,Arts/Entertainment,9154,2.89,Arts/Entertainment
+72,Accommodation/Food,9079,2.47,Accommodation/Food
+81,Other Services,9586,1.73,Other Services
+92,Public Administration,8810,0.36,Public Administration

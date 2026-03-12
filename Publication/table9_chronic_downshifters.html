@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table 9: Chronic NAICS Downshifters</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+  .fig-label { font-size: 13px; color: #555; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .fig-title { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+  .fig-caption { font-size: 13px; color: #666; line-height: 1.5; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  thead th { background: #2C5F8A; color: #fff; padding: 9px 6px; text-align: right; font-weight: 600; font-size: 11px; white-space: nowrap; }
+  thead th:first-child { text-align: center; width: 28px; }
+  thead th:nth-child(2) { text-align: left; }
+  thead th:nth-child(3) { text-align: left; }
+  tbody td { padding: 7px 6px; text-align: right; border-bottom: 1px solid #e8e8e8; font-variant-numeric: tabular-nums; }
+  tbody td:first-child { text-align: center; color: #999; font-size: 11px; }
+  tbody td:nth-child(2) { text-align: left; font-family: 'Consolas', 'Monaco', monospace; font-size: 11px; color: #666; }
+  tbody td:nth-child(3) { text-align: left; font-size: 11px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  tbody tr:nth-child(even) { background: #f7f9fb; }
+  tbody tr:hover { background: #eef3f8; }
+  .delta-bar {
+    display: inline-block;
+    height: 12px;
+    background: #C44E52;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 4px;
+    opacity: 0.7;
+  }
+  .delta-text { font-size: 11px; vertical-align: middle; }
+  .years-col { font-size: 10px; color: #555; }
+  .states-col { font-size: 10px; color: #777; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .footnote { margin-top: 16px; font-size: 11px; color: #888; line-height: 1.5; border-top: 1px solid #ddd; padding-top: 10px; }
+  .summary-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .summary-item {
+    flex: 1;
+    background: #f7f9fb;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+  }
+  .summary-item .val { font-size: 22px; font-weight: 700; color: #1a1a1a; }
+  .summary-item .lbl { font-size: 10px; color: #777; margin-top: 2px; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="fig-label">Table 9</div>
+  <div class="fig-title">Top 20 Chronic NAICS Downshifters by Establishment Count</div>
+  <div class="fig-caption">Employers whose establishments changed NAICS codes between consecutive years in a direction associated with lower BLS DART (Days Away, Restricted, or Transferred) injury rates. A "downward shift" occurs when an establishment's year-over-year NAICS code change results in a lower DART benchmark, potentially understating workplace injury risk. Only actual NAICS code changes are counted (BLS rate adjustments on stable codes are excluded).</div>
+
+  <div class="summary-row">
+    <div class="summary-item">
+      <div class="val">9,220</div>
+      <div class="lbl">Total Downward Shifts</div>
+    </div>
+    <div class="summary-item">
+      <div class="val">382</div>
+      <div class="lbl">Chronic Downshifter EINs</div>
+    </div>
+    <div class="summary-item">
+      <div class="val">18,600</div>
+      <div class="lbl">Total Shifts (All Directions)</div>
+    </div>
+    <div class="summary-item">
+      <div class="val">84,842</div>
+      <div class="lbl">Estab. in All 4 Years</div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>EIN</th>
+        <th>Company</th>
+        <th>Down-shifts</th>
+        <th>Estab.</th>
+        <th>Employees</th>
+        <th>Avg DART &Delta;</th>
+        <th>Worst &Delta;</th>
+        <th>Years</th>
+        <th>States</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>***-**-7365</td><td>Dollar Tree</td>
+        <td>1,050</td><td>1,050</td><td>23,460</td>
+        <td><span class="delta-bar" style="width:15px"></span><span class="delta-text">-0.30</span></td>
+        <td>-0.30</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col" title="AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NJ, NM, NV, NY, OH, OK, OR, PA, SC, TN, TX, UT, VA, WA, WI">43 states</td>
+      </tr>
+      <tr>
+        <td>2</td><td>***-**-9732</td><td>Tractor Supply Company</td>
+        <td>647</td><td>647</td><td>13,359</td>
+        <td><span class="delta-bar" style="width:60px"></span><span class="delta-text">-1.20</span></td>
+        <td>-1.20</td>
+        <td class="years-col">21–24</td>
+        <td class="states-col" title="AL, AR, DE, FL, GA, IL, IN, KS, KY, LA, MD, MN, MO, MS, MT, NC, ND, NE, NJ, NM, OH, OK, PA, SC, SD, TN, VA, WA, WI, WV">30 states</td>
+      </tr>
+      <tr>
+        <td>3</td><td>***-**-3280</td><td>Costco Wholesale</td>
+        <td>511</td><td>511</td><td>157,678</td>
+        <td><span class="delta-bar" style="width:56px"></span><span class="delta-text">-1.12</span></td>
+        <td>-1.70</td>
+        <td class="years-col">21–23</td>
+        <td class="states-col" title="46 states + PR">46 states</td>
+      </tr>
+      <tr>
+        <td>4</td><td>***-**-4569</td><td>Builders FirstSource</td>
+        <td>323</td><td>323</td><td>12,864</td>
+        <td><span class="delta-bar" style="width:24px"></span><span class="delta-text">-0.48</span></td>
+        <td>-1.70</td>
+        <td class="years-col">21–23</td>
+        <td class="states-col">33 states</td>
+      </tr>
+      <tr>
+        <td>5</td><td>***-**-1347</td><td>CA State Lottery</td>
+        <td>282</td><td>282</td><td>475,402</td>
+        <td><span class="delta-bar" style="width:26px"></span><span class="delta-text">-0.52</span></td>
+        <td>-0.60</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col">CA</td>
+      </tr>
+      <tr>
+        <td>6</td><td>***-**-0747</td><td>BJ's Wholesale</td>
+        <td>226</td><td>226</td><td>30,128</td>
+        <td><span class="delta-bar" style="width:55px"></span><span class="delta-text">-1.10</span></td>
+        <td>-1.10</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col">17 states</td>
+      </tr>
+      <tr>
+        <td>7</td><td>***-**-1312</td><td>O'Reilly Auto Parts</td>
+        <td>213</td><td>213</td><td>11,847</td>
+        <td><span class="delta-bar" style="width:33px"></span><span class="delta-text">-0.66</span></td>
+        <td>-2.60</td>
+        <td class="years-col">22–24</td>
+        <td class="states-col">26 states</td>
+      </tr>
+      <tr>
+        <td>8</td><td>***-**-8201</td><td>Fred Meyer / QFC</td>
+        <td>165</td><td>165</td><td>38,009</td>
+        <td><span class="delta-bar" style="width:96px"></span><span class="delta-text">-1.91</span></td>
+        <td>-2.40</td>
+        <td class="years-col">22–23</td>
+        <td class="states-col">AK, ID, OR, WA</td>
+      </tr>
+      <tr>
+        <td>9</td><td>***-**-5916</td><td>Gordon Food Service</td>
+        <td>163</td><td>163</td><td>3,379</td>
+        <td><span class="delta-bar" style="width:60px"></span><span class="delta-text">-1.20</span></td>
+        <td>-1.20</td>
+        <td class="years-col">22–23</td>
+        <td class="states-col">13 states</td>
+      </tr>
+      <tr>
+        <td>10</td><td>***-**-8768</td><td>Fry's / Smith's Food</td>
+        <td>156</td><td>156</td><td>23,520</td>
+        <td><span class="delta-bar" style="width:64px"></span><span class="delta-text">-1.27</span></td>
+        <td>-2.40</td>
+        <td class="years-col">22–23</td>
+        <td class="states-col">AZ, ID, MT, NM, NV, UT, WY</td>
+      </tr>
+      <tr>
+        <td>11</td><td>***-**-9910</td><td>Advance Auto Parts</td>
+        <td>141</td><td>141</td><td>4,532</td>
+        <td><span class="delta-bar" style="width:31px"></span><span class="delta-text">-0.62</span></td>
+        <td>-2.40</td>
+        <td class="years-col">21–24</td>
+        <td class="states-col">27 states</td>
+      </tr>
+      <tr>
+        <td>12</td><td>***-**-8012</td><td>O'Reilly Auto Parts</td>
+        <td>134</td><td>134</td><td>4,007</td>
+        <td><span class="delta-bar" style="width:25px"></span><span class="delta-text">-0.50</span></td>
+        <td>-0.50</td>
+        <td class="years-col">22–24</td>
+        <td class="states-col">20 states</td>
+      </tr>
+      <tr>
+        <td>13</td><td>***-**-4536</td><td>Meijer</td>
+        <td>122</td><td>122</td><td>30,988</td>
+        <td><span class="delta-bar" style="width:50px"></span><span class="delta-text">-1.00</span></td>
+        <td>-1.00</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col">MI, OH</td>
+      </tr>
+      <tr>
+        <td>14</td><td>***-**-4692</td><td>Go-Mart Inc</td>
+        <td>121</td><td>121</td><td>1,286</td>
+        <td><span class="delta-bar" style="width:85px"></span><span class="delta-text">-1.70</span></td>
+        <td>-1.70</td>
+        <td class="years-col">23–24</td>
+        <td class="states-col">OH, VA, WI, WV</td>
+      </tr>
+      <tr>
+        <td>15</td><td>***-**-9500</td><td>Tractor Supply Company</td>
+        <td>114</td><td>114</td><td>2,379</td>
+        <td><span class="delta-bar" style="width:60px"></span><span class="delta-text">-1.20</span></td>
+        <td>-1.20</td>
+        <td class="years-col">22–24</td>
+        <td class="states-col">TX</td>
+      </tr>
+      <tr>
+        <td>16</td><td>***-**-8772</td><td>Tractor Supply Company</td>
+        <td>108</td><td>108</td><td>2,467</td>
+        <td><span class="delta-bar" style="width:60px"></span><span class="delta-text">-1.20</span></td>
+        <td>-1.20</td>
+        <td class="years-col">22–24</td>
+        <td class="states-col">AZ, CA, CO, HI, ID, NV, OR, UT</td>
+      </tr>
+      <tr>
+        <td>17</td><td>***-**-8728</td><td>WorldPac</td>
+        <td>107</td><td>107</td><td>3,989</td>
+        <td><span class="delta-bar" style="width:125px"></span><span class="delta-text">-2.50</span></td>
+        <td>-2.50</td>
+        <td class="years-col">21–23</td>
+        <td class="states-col">26 states</td>
+      </tr>
+      <tr>
+        <td>18</td><td>***-**-2963</td><td>Dollar Tree</td>
+        <td>104</td><td>104</td><td>2,164</td>
+        <td><span class="delta-bar" style="width:15px"></span><span class="delta-text">-0.30</span></td>
+        <td>-0.30</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col">24 states</td>
+      </tr>
+      <tr>
+        <td>19</td><td>***-**-3829</td><td>AC Self Storage</td>
+        <td>100</td><td>100</td><td>186</td>
+        <td><span class="delta-bar" style="width:65px"></span><span class="delta-text">-1.30</span></td>
+        <td>-1.30</td>
+        <td class="years-col">22–23</td>
+        <td class="states-col">15 states</td>
+      </tr>
+      <tr>
+        <td>20</td><td>***-**-3362</td><td>Advance Auto Parts</td>
+        <td>97</td><td>97</td><td>2,990</td>
+        <td><span class="delta-bar" style="width:30px"></span><span class="delta-text">-0.60</span></td>
+        <td>-0.60</td>
+        <td class="years-col">21–22</td>
+        <td class="states-col">23 states</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footnote">
+    <strong>Note:</strong> A "downward shift" is a year-over-year NAICS code change where the new code's BLS DART rate is lower than the previous code's rate, measured using the corresponding year's published DART benchmarks. "Avg DART &Delta;" is the mean DART rate change across all of the EIN's downward shifts (negative values indicate lower injury-rate benchmarks). Red bars are proportional to the magnitude of the average delta. Only actual NAICS code changes are counted; BLS rate adjustments on unchanged codes are excluded. Companies appearing multiple times (e.g., Dollar Tree, Tractor Supply, O'Reilly) file under multiple EINs. Tractor Supply's repeated NAICS shifts from Retail (NAICS 44) to General Merchandise (NAICS 45) reflect a -1.2 DART delta per occurrence across 869 combined establishments.
+  </div>
+</div>
+</body>
+</html>

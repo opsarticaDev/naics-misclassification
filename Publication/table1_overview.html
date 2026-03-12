@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table 1: Pipeline Overview by Year</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+  .fig-label { font-size: 13px; color: #555; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .fig-title { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+  .fig-caption { font-size: 13px; color: #666; line-height: 1.5; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { background: #2C5F8A; color: #fff; padding: 10px 6px; text-align: right; font-weight: 600; font-size: 11px; white-space: nowrap; }
+  thead th:first-child { text-align: center; }
+  tbody td { padding: 9px 6px; text-align: right; border-bottom: 1px solid #e0e0e0; }
+  tbody td:first-child { text-align: center; font-weight: 600; }
+  tbody tr:nth-child(even) { background: #f7f9fb; }
+  tbody tr:hover { background: #eef3f8; }
+  tfoot td { padding: 10px 6px; text-align: right; font-weight: 700; background: #f0f0f0; border-top: 2px solid #2C5F8A; }
+  tfoot td:first-child { text-align: center; }
+  .pct { color: #2C5F8A; font-weight: 600; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="fig-label">Table 1</div>
+  <div class="fig-title">Pipeline Overview by Calendar Year (2021–2024)</div>
+  <div class="fig-caption">Summary of OSHA 300A records processed through the 8-gate validation pipeline. Flag rate represents the percentage of total records flagged by at least one gate. Auto-resolution rate reflects records resolved algorithmically without human review. Materiality assessed using BLS DART rate benchmarks.</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:center">Year</th>
+        <th>Total Records</th>
+        <th>Flagged</th>
+        <th>Flag Rate</th>
+        <th>Triage Rows</th>
+        <th>Auto-Resolved</th>
+        <th>Auto %</th>
+        <th>Manual Review</th>
+        <th>No Data</th>
+        <th>Material</th>
+        <th>Material %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2021</td>
+        <td>317,978</td>
+        <td>173,465</td>
+        <td class="pct">54.6%</td>
+        <td>40,205</td>
+        <td>38,444</td>
+        <td class="pct">95.6%</td>
+        <td>1,119</td>
+        <td>642</td>
+        <td>16,769</td>
+        <td class="pct">56.8%</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>346,873</td>
+        <td>184,191</td>
+        <td class="pct">53.1%</td>
+        <td>35,604</td>
+        <td>34,430</td>
+        <td class="pct">96.7%</td>
+        <td>600</td>
+        <td>574</td>
+        <td>18,444</td>
+        <td class="pct">64.9%</td>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>394,234</td>
+        <td>205,307</td>
+        <td class="pct">52.1%</td>
+        <td>46,015</td>
+        <td>44,759</td>
+        <td class="pct">97.3%</td>
+        <td>610</td>
+        <td>646</td>
+        <td>15,784</td>
+        <td class="pct">44.0%</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>396,263</td>
+        <td>211,150</td>
+        <td class="pct">53.3%</td>
+        <td>40,248</td>
+        <td>38,861</td>
+        <td class="pct">96.6%</td>
+        <td>658</td>
+        <td>729</td>
+        <td>13,466</td>
+        <td class="pct">46.9%</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>1,455,348</td>
+        <td>774,113</td>
+        <td class="pct">53.2%</td>
+        <td>162,072</td>
+        <td>156,494</td>
+        <td class="pct">96.6%</td>
+        <td>2,987</td>
+        <td>2,591</td>
+        <td>64,463</td>
+        <td class="pct">52.6%</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+</body>
+</html>

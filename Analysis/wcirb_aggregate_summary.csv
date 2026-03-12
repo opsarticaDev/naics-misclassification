@@ -1,0 +1,13 @@
+metric,value
+total_misclassifications_with_suggestion,36365
+cross_sector_misclassifications,31933
+within_sector_misclassifications,4432
+ca_establishments_affected,4267
+total_annual_premium_gap_all_states,32865858368.05
+total_annual_premium_gap_ca_only,9406116366.37
+avg_premium_gap_per_establishment,908172.60
+max_individual_premium_gap,419512500.00
+top_underclass_pattern,54 (Professional Services) -> 48 (Transportation/Trucking)
+pct_underpaying,27.7
+conservative_ca_carrier_loss,9406116366.37
+aggressive_ca_carrier_loss,"101971975239.39 (CAUTION: rough extrapolation, population_ratio=10.8, based on 394,234 total ITA records / 36,365 scored establishments)"

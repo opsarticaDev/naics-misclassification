@@ -1,0 +1,96 @@
+References
+
+Agresti, A. (2002). Categorical data analysis (2nd ed.). Wiley. https://doi.org/10.1002/0471249688
+
+Akerlof, G. A. (1970). The market for "lemons": Quality uncertainty and the market mechanism. The Quarterly Journal of Economics, 84(3), 488-500.
+
+Bartolucci, F., Farcomeni, A., & Pennoni, F. (2010). An overview of latent Markov models for longitudinal categorical data. arXiv preprint arXiv:1003.2804. https://arxiv.org/abs/1003.2804
+
+Bartolucci, F., Farcomeni, A., & Pennoni, F. (2013). Latent Markov models for longitudinal data. Chapman & Hall/CRC. https://doi.org/10.1201/b13246
+
+Berger, P. G., & Ofek, E. (1995). Diversification's effect on firm value. Journal of Financial Economics, 37(1), 39-65.
+
+Bhojraj, S., Lee, C. M. C., & Oler, D. K. (2003). What's my line? A comparison of industry classification schemes for capital market research. Journal of Accounting Research, 41(5), 745-774. https://doi.org/10.1046/j.1475-679X.2003.00122.x
+
+Boden, L. I., & Ozonoff, A. (2008). Capture-recapture estimates of nonfatal workplace injuries and illnesses. Annals of Epidemiology, 18(6), 500-506. https://doi.org/10.1016/j.annepidem.2007.11.003
+
+Bound, J., Brown, C., & Mathiowetz, N. (2001). Measurement error in survey data. In J. J. Heckman & E. Leamer (Eds.), Handbook of Econometrics (Vol. 5, pp. 3705-3843). Elsevier. https://doi.org/10.1016/S1573-4412(01)05012-7
+
+Chen, H., Cohen, L., & Lou, D. (2016). Industry window dressing. The Review of Financial Studies, 29(12), 3354-3393.
+
+Dashen, M., & Goldenberg, K. (2005). Improving industry descriptions for the Annual Refiling Survey. Federal Committee on Statistical Methodology Research Conference. https://nces.ed.gov/FCSM/pdf/2005FCSM_Dashen_Goldenberg_IXB.pdf
+
+DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. American Sociological Review, 48(2), 147-160.
+
+Dumbacher, B., & Whitehead, D. (2024). Industry self-classification in the economic census (ADEP Working Paper 2024-04). U.S. Census Bureau. Also published as: Dumbacher, B., & Whitehead, D. (2025). BEACON: A tool for industry self-classification in the economic census. Journal of Data Science. Census Bureau paper describing BEACON, an ML-based tool for NAICS self-classification deployed in the 2022 Economic Census. BEACON returned the correct 6-digit code in its candidate list 90.1% of the time; respondents successfully self-classified 75.5% overall. Manufacturing (57.7%) and Wholesale Trade (54.9%) had the lowest success rates. Demonstrates that even with ML assistance, firms struggle to correctly identify their own industry code, establishing the upstream error rate that propagates into administrative systems including OSHA records.
+
+Fort, T. C., & Klimek, S. D. (2018). The effects of industry classification changes on US employment composition (CES Working Paper 18-28). U.S. Census Bureau, Center for Economic Studies. https://www2.census.gov/ces/wp/2018/CES-WP-18-28.pdf
+
+Gama, J., Zliobaite, I., Bifet, A., Pechenizkiy, M., & Bouchachia, A. (2014). A survey on concept drift adaptation. ACM Computing Surveys, 46(4), Article 44. https://doi.org/10.1145/2523813
+
+Guenther, D. A., & Rosman, A. J. (1994). Differences between COMPUSTAT and CRSP SIC codes and related effects on research. Journal of Accounting and Economics, 18(1), 115-128. https://doi.org/10.1016/0165-4101(94)90021-3
+
+Hannan, M. T., & Freeman, J. (1984). Structural inertia and organizational change. American Sociological Review, 49(2), 149-164.
+
+Healy, P. M., & Palepu, K. G. (2001). Information asymmetry, corporate disclosure, and the capital markets: A review of the empirical disclosure literature. Journal of Accounting and Economics, 31(1-3), 405-440.
+
+Kahle, K. M., & Walkling, R. A. (1996). The impact of industry classifications on financial research. Journal of Financial and Quantitative Analysis, 31(3), 309-335. https://doi.org/10.2307/2331394
+
+Kovacs, B., & Hannan, M. T. (2010). The consequences of category spanning depend on contrast. In G. Hsu, G. Negro, & O. Ozcan (Eds.), Research in the Sociology of Organizations (Vol. 31, pp. 175-201). Emerald Group Publishing. The penalty for spanning multiple categories depends on how sharply those categories are defined. When boundaries are crisp, spanning triggers devaluation. Applied to NAICS codes, this predicts that misclassification is more consequential when the codes being crossed represent distinctly different regulatory or market identities, such as Manufacturing versus Wholesale Trade.
+
+Kuvvet, E., Shen, Y., & Upadhyay, A. (2025). Industry classification misfits: Identification, consequences and guidance. Review of Accounting Studies, 30, 3295-3343.
+
+Laplante, S. K., Skaife, H. A., Swenson, L. A., & Wangerin, D. D. (2019). Limits of tax regulation: Evidence from strategic R&D classification and the R&D tax credit. Journal of Accounting and Public Policy, 38(5), 106694. Direct evidence that firms strategically reclassify expenditures to capture tax credits. A one standard deviation increase in strategic R&D classification reduces effective tax rates by 1.5-1.7%. Expenditure-level analog of what the manuscript hypothesizes occurs at the firm-classification level when NAICS-specific subsidies change.
+
+Leigh, J. P. (2011). Economic burden of occupational injury and illness in the United States. The Milbank Quarterly, 89(4), 728-772. https://doi.org/10.1111/j.1468-0009.2011.00648.x
+
+Leigh, J. P., & Marcin, J. P. (2012). Workers' compensation benefits and shifting costs for occupational injury and illness. Journal of Occupational and Environmental Medicine, 54(4), 445-450. https://doi.org/10.1097/JOM.0b013e3182451e54
+
+Leigh, J. P., Marcin, J. P., & Miller, T. R. (2004). An estimate of the U.S. government's undercount of nonfatal occupational injuries. Journal of Occupational and Environmental Medicine, 46(1), 10-18. https://doi.org/10.1097/01.jom.0000105909.89243.bf
+
+Leuz, C., Nanda, D., & Wysocki, P. D. (2003). Earnings management and investor protection: An international comparison. Journal of Financial Economics, 69(3), 505-527.
+
+Lu, J., Liu, A., Dong, F., Gu, F., Gama, J., & Zhang, G. (2019). Learning under concept drift: A review. IEEE Transactions on Knowledge and Data Engineering, 31(12), 2346-2363. https://doi.org/10.1109/TKDE.2018.2876857
+
+Michaels, D., & Wagner, G. R. (2025). OSHA injury data: An opportunity for improving work injury prevention. American Journal of Public Health, 115(4), 371-374. https://doi.org/10.2105/AJPH.2024.307934
+
+National Council on Compensation Insurance. (n.d.). ABCs of experience rating. NCCI. https://www.ncci.com/articles/documents/uw_abc_exp_rating.pdf
+
+Negro, G., Hannan, M. T., & Rao, H. (2011). Category reinterpretation and defection: Modernism and tradition in Italian winemaking. Organization Science, 22(6), 1449-1463.
+
+North, D. C. (1990). Institutions, institutional change and economic performance. Cambridge University Press.
+
+Peltzman, S. (1976). Toward a more general theory of regulation. The Journal of Law and Economics, 19(2), 211-240.
+
+Pierce, J. R., & Schott, P. K. (2012). A concordance between ten-digit U.S. Harmonized System codes and SIC/NAICS product classes and industries. Journal of Economic and Social Measurement, 37(1-2), 61-96. https://doi.org/10.3233/JEM-2012-0351
+
+Pierson, P. (2000). Increasing returns, path dependence, and the study of politics. American Political Science Review, 94(2), 251-267.
+
+Rappin, C. L., Wuellner, S. E., & Bonauto, D. K. (2016). Employer reasons for failing to report eligible workers' compensation claims in the BLS survey of occupational injuries and illnesses. American Journal of Industrial Medicine, 59(5), 343-356. https://doi.org/10.1002/ajim.22582
+
+Rosenman, K. D., Kalush, A., Reilly, M. J., Gardiner, J. C., Reeves, M., & Luo, Z. (2006). How much work-related injury and illness is missed by the current national surveillance system? Journal of Occupational and Environmental Medicine, 48(4), 357-365. https://doi.org/10.1097/01.jom.0000205864.81970.63
+
+Ruser, J. W. (2008). Examining evidence on whether BLS undercounts workplace injuries and illnesses. Monthly Labor Review, 131(8), 20-32. https://www.bls.gov/opub/mlr/2008/08/art2full.pdf
+
+Shapiro, S. A., & Rabinowitz, R. S. (2000). Voluntary regulatory compliance in theory and practice: The case of OSHA. Administrative Law Review, 52(1), 97-155.
+
+Shorrocks, A. F. (1978). The measurement of mobility. Econometrica, 46(5), 1013-1024. https://doi.org/10.2307/1911433
+
+Stigler, G. J. (1971). The theory of economic regulation. The Bell Journal of Economics and Management Science, 2(1), 3-21.
+
+Trebbi, F., Zhang, M. B., & Simkovic, M. (2022). The cost of regulatory compliance in the United States (NBER Working Paper No. 30691). National Bureau of Economic Research. Compliance costs average 1.34% of a firm's wage bill but vary substantially across NAICS 6-digit industries, with industry fixed effects explaining 36% of the variation. Quantifies the economic foundation for regulatory arbitrage: if compliance costs differ by tens of thousands of dollars across adjacent codes, firms have a measurable financial incentive to select the lower-cost classification.
+
+U.S. Government Accountability Office. (2009). Workplace safety and health: Enhancing OSHA's records audit process could improve the accuracy of worker injury and illness data (GAO-10-10). https://www.gao.gov/assets/gao-10-10.pdf
+
+U.S. Government Accountability Office. (2022). Workplace safety and health: Data and enforcement challenges limit OSHA's ability to protect workers during a crisis (GAO-22-105711). https://www.gao.gov/products/gao-22-105711
+
+U.S. House of Representatives, Committee on Education and Labor. (2008). Hidden tragedy: Underreporting of workplace injuries and illnesses. https://www.bls.gov/iif/data-quality-research/hidden-tragedy-underreporting-of-workplace-injuries-and-illnesses.pdf
+
+U.S. Small Business Administration, Office of Inspector General. (2023). COVID-19 pandemic EIDL and PPP loan fraud landscape (Report No. 23-09). U.S. Small Business Administration. Documented over $200 billion in potentially fraudulent COVID-19 relief loans (17% of all program funds). NAICS codes determined eligibility thresholds: businesses under NAICS 72 received special treatment exempting them from affiliate employee counting. One of the largest natural experiments in policy-induced NAICS code gaming.
+
+Viscusi, W. K. (1979). The impact of occupational safety and health regulation. The Bell Journal of Economics, 10(1), 117-140.
+
+Wuellner, S. E., Adams, D. A., & Bonauto, D. K. (2016). Unreported workers' compensation claims to the BLS Survey of Occupational Injuries and Illnesses: Establishment factors. American Journal of Industrial Medicine, 59(4), 274-289. https://doi.org/10.1002/ajim.22563
+
+Zuckerman, E. W. (1999). The categorical imperative: Securities analysts and the illegitimacy discount. American Journal of Sociology, 104(5), 1398-1438.
+

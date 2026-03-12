@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 2: Materiality Distribution by Year</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+
+  .chart-wrap { position: relative; width: 100%; height: 480px; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+</div>
+<script>
+const ctx = document.getElementById('chart').getContext('2d');
+
+const data = {
+  labels: ['2021', '2022', '2023', '2024'],
+  datasets: [
+    {
+      label: 'Material',
+      data: [16769, 18444, 15784, 13466],
+      backgroundColor: '#C44E52',
+      borderColor: '#a33b3f',
+      borderWidth: 1
+    },
+    {
+      label: 'Moderate',
+      data: [10935, 8490, 17853, 13824],
+      backgroundColor: '#D4A843',
+      borderColor: '#b8922e',
+      borderWidth: 1
+    },
+    {
+      label: 'Immaterial',
+      data: [1622, 1186, 2163, 1406],
+      backgroundColor: '#8FB3C9',
+      borderColor: '#6e97b0',
+      borderWidth: 1
+    },
+    {
+      label: 'Indeterminate',
+      data: [177, 293, 84, 42],
+      backgroundColor: '#7F7F7F',
+      borderColor: '#666666',
+      borderWidth: 1
+    }
+  ]
+};
+
+const totals = [29503, 28413, 35884, 28738];
+
+new Chart(ctx, {
+  type: 'bar',
+  data: data,
+  plugins: [ChartDataLabels],
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: { font: { size: 13 }, padding: 20, usePointStyle: true, pointStyleWidth: 16 }
+      },
+      datalabels: {
+        color: '#fff',
+        font: { weight: 'bold', size: 12 },
+        formatter: function(value, context) {
+          const total = totals[context.dataIndex];
+          const pct = (value / total * 100);
+          if (pct < 4) return '';
+          return pct.toFixed(1) + '%';
+        },
+        anchor: 'center',
+        align: 'center'
+      },
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            const total = totals[context.dataIndex];
+            const pct = (context.raw / total * 100).toFixed(1);
+            return context.dataset.label + ': ' + context.raw.toLocaleString() + ' (' + pct + '%)';
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        stacked: true,
+        grid: { display: false },
+        ticks: { font: { size: 14, weight: '600' } }
+      },
+      y: {
+        stacked: true,
+        beginAtZero: true,
+        title: { display: true, text: 'Number of Flagged Records', font: { size: 13 } },
+        ticks: {
+          callback: function(val) { return val.toLocaleString(); },
+          font: { size: 12 }
+        }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Raw OSHA ITA data (publicly available from OSHA)
+ita_data_*.csv
+
+# Pipeline intermediate outputs (reproducible from scripts)
+*_output_*.csv
+flagged_output_*.csv
+classified_output_*.csv
+uncertain_for_websearch_*.csv
+scrape_results_*.csv
+fanout_*.csv
+
+# SAM.gov extract (too large, publicly available)
+SAM_*.csv
+
+# Logs
+*.log
+pipeline.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+*.key

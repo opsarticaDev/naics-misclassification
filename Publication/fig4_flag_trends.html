@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 4: Flag and Materiality Rate Trends</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+
+  .chart-wrap { position: relative; width: 100%; height: 480px; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="chart-wrap">
+    <canvas id="chart"></canvas>
+  </div>
+</div>
+<script>
+const ctx = document.getElementById('chart').getContext('2d');
+
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['2021', '2022', '2023', '2024'],
+    datasets: [
+      {
+        label: 'Total Records',
+        type: 'bar',
+        data: [317978, 346873, 394234, 396263],
+        backgroundColor: 'rgba(180,180,180,0.45)',
+        borderColor: 'rgba(140,140,140,0.6)',
+        borderWidth: 1,
+        yAxisID: 'y1',
+        order: 2,
+        datalabels: { display: false }
+      },
+      {
+        label: 'Flag Rate (%)',
+        type: 'line',
+        data: [54.55, 53.10, 52.08, 53.29],
+        borderColor: '#2C5F8A',
+        backgroundColor: '#2C5F8A',
+        borderWidth: 3,
+        pointRadius: 6,
+        pointBackgroundColor: '#2C5F8A',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        tension: 0.2,
+        yAxisID: 'y',
+        order: 1,
+        datalabels: {
+          color: '#2C5F8A',
+          font: { weight: 'bold', size: 13 },
+          anchor: 'end',
+          align: 'top',
+          offset: 6,
+          formatter: function(v) { return v.toFixed(1) + '%'; }
+        }
+      },
+      {
+        label: 'Material Rate (%)',
+        type: 'line',
+        data: [56.8, 64.9, 44.0, 46.9],
+        borderColor: '#C44E52',
+        backgroundColor: '#C44E52',
+        borderWidth: 3,
+        borderDash: [8, 4],
+        pointRadius: 6,
+        pointBackgroundColor: '#C44E52',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 2,
+        tension: 0.2,
+        yAxisID: 'y',
+        order: 0,
+        datalabels: {
+          color: '#C44E52',
+          font: { weight: 'bold', size: 13 },
+          anchor: 'end',
+          align: 'bottom',
+          offset: 6,
+          formatter: function(v) { return v.toFixed(1) + '%'; }
+        }
+      }
+    ]
+  },
+  plugins: [ChartDataLabels],
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: { font: { size: 13 }, padding: 20, usePointStyle: true, pointStyleWidth: 16 }
+      },
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            if (context.dataset.yAxisID === 'y1') {
+              return context.dataset.label + ': ' + context.raw.toLocaleString();
+            }
+            return context.dataset.label + ': ' + context.raw.toFixed(1) + '%';
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: { display: false },
+        ticks: { font: { size: 14, weight: '600' } }
+      },
+      y: {
+        position: 'left',
+        min: 30,
+        max: 75,
+        title: { display: true, text: 'Rate (%)', font: { size: 13 } },
+        ticks: {
+          callback: function(v) { return v + '%'; },
+          font: { size: 12 }
+        },
+        grid: { color: 'rgba(0,0,0,0.06)' }
+      },
+      y1: {
+        position: 'right',
+        beginAtZero: true,
+        title: { display: true, text: 'Total Records', font: { size: 13 } },
+        ticks: {
+          callback: function(v) { return (v/1000) + 'K'; },
+          font: { size: 12 }
+        },
+        grid: { display: false }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>

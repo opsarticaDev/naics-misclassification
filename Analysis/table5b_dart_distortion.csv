@@ -1,0 +1,22 @@
+sector,cross_sector_outflows,cross_sector_inflows,net_flow,net_direction,total_flagged_4yr,distortion_pct
+Unknown,360,0,-360,net exporter,0,N/A
+Information,5,269,264,net importer,6830,3.87%
+Transportation (48-49),186,40,-146,net exporter,84723,0.17%
+Admin/Waste Services,29,113,84,net importer,51373,0.16%
+Professional Services,7,79,72,net importer,10574,0.68%
+Retail Trade (44-45),103,41,-62,net exporter,270437,0.02%
+Wholesale Trade,56,115,59,net importer,63713,0.09%
+Manufacturing (31-33),52,109,57,net importer,130246,0.04%
+Other Services,8,53,45,net importer,17962,0.25%
+Construction,47,13,-34,net exporter,67303,0.05%
+Health Care,12,44,32,net importer,87518,0.04%
+Accommodation/Food,3,33,30,net importer,63321,0.05%
+Real Estate,28,8,-20,net exporter,14921,0.13%
+Public Administration,32,13,-19,net exporter,21948,0.09%
+Utilities,3,19,16,net importer,19167,0.08%
+Mining,19,11,-8,net exporter,2156,0.37%
+Arts/Entertainment,10,2,-8,net exporter,6932,0.12%
+Management,6,2,-4,net exporter,4812,0.08%
+Education,3,6,3,net importer,7926,0.04%
+Agriculture,24,23,-1,net exporter,11669,0.01%
+Finance/Insurance,5,5,0,balanced,1450,0.00%

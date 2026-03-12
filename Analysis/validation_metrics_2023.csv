@@ -1,0 +1,6 @@
+stratum,n_scored,pool_size,reported_accuracy,n_reported_correct,n_reported_wrong,false_negatives,false_positives,true_positives,suggestion_accuracy,n_suggestion_correct
+CLEAN,100,188927,0.96,96,4,4.0,,,,
+FLAGGED_NOT_PROMOTED,100,159292,0.85,85,15,,85.0,15.0,,
+AUTO_RESOLVED,150,44759,0.9067,136,14,,136.0,14.0,0.2133,32.0
+MANUAL_REVIEW,100,610,0.55,55,45,,55.0,45.0,0.22,22.0
+NO_DATA,50,646,0.9,45,5,,,,,

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table 5: Sector Stability &amp; DART Distortion</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; display: flex; justify-content: center; padding: 40px 20px; }
+  .container { width: 900px; }
+  .fig-label { font-size: 13px; color: #555; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .fig-title { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+  .fig-caption { font-size: 13px; color: #666; line-height: 1.5; margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 10px; }
+  thead th { background: #2C5F8A; color: #fff; padding: 8px 5px; text-align: right; font-weight: 600; font-size: 11px; white-space: nowrap; }
+  thead th:first-child { text-align: left; }
+  thead th.year-group { border-left: 2px solid rgba(255,255,255,0.3); }
+  tbody td { padding: 7px 5px; text-align: right; border-bottom: 1px solid #e0e0e0; font-variant-numeric: tabular-nums; }
+  tbody td:first-child { text-align: left; font-weight: 500; }
+  tbody tr:nth-child(even) { background: #f7f9fb; }
+  tbody tr:hover { background: #eef3f8; }
+  td.year-group { border-left: 2px solid #e0e0e0; }
+  .top5 td:first-child { border-left: 3px solid #C44E52; }
+  .bot5 td:first-child { border-left: 3px solid #4A8C6F; }
+  .pct { color: #666; font-size: 11px; }
+  .consistency-vs { color: #4A8C6F; font-weight: 600; }
+  .consistency-s { color: #2C5F8A; font-weight: 600; }
+  .consistency-m { color: #D4A843; font-weight: 600; }
+  .consistency-v { color: #C44E52; font-weight: 600; }
+  .footnote { font-size: 12px; color: #666; line-height: 1.6; margin-top: 12px; padding: 12px; background: #f7f9fb; border-radius: 6px; }
+  .part-b { margin-top: 36px; }
+  .net-imp { color: #C44E52; font-weight: 600; }
+  .net-exp { color: #2C5F8A; font-weight: 600; }
+  .net-bal { color: #7F7F7F; }
+  @media print { body { padding: 0; } .container { width: 100%; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="fig-label">Table 5 &mdash; Part A</div>
+  <div class="fig-title">Sector Flag-Rate Stability (2021&ndash;2024)</div>
+  <div class="fig-caption">Each sector's flag rate (flags per record) and rank across 4 years. Sectors are sorted by mean rank (1 = highest flag rate). Consistency is based on rank range: Very Stable (&le;2), Stable (&le;5), Moderate (&le;10), Volatile (&gt;10). Red accent = top 5; green accent = bottom 5.</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left">Sector</th>
+        <th>Mean Rank</th>
+        <th class="year-group">2021 Rate</th>
+        <th>Rk</th>
+        <th class="year-group">2022 Rate</th>
+        <th>Rk</th>
+        <th class="year-group">2023 Rate</th>
+        <th>Rk</th>
+        <th class="year-group">2024 Rate</th>
+        <th>Rk</th>
+        <th>Consistency</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="top5">
+        <td>Retail Trade (44-45)</td><td>1.2</td>
+        <td class="year-group">1.052</td><td>2</td>
+        <td class="year-group">1.077</td><td>1</td>
+        <td class="year-group">1.034</td><td>1</td>
+        <td class="year-group">1.003</td><td>1</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr class="top5">
+        <td>Accommodation/Food</td><td>2.8</td>
+        <td class="year-group">0.777</td><td>4</td>
+        <td class="year-group">0.820</td><td>3</td>
+        <td class="year-group">0.811</td><td>2</td>
+        <td class="year-group">0.762</td><td>2</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr class="top5">
+        <td>Public Administration</td><td>3.8</td>
+        <td class="year-group">0.778</td><td>3</td>
+        <td class="year-group">0.724</td><td>5</td>
+        <td class="year-group">0.731</td><td>4</td>
+        <td class="year-group">0.752</td><td>3</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr class="top5">
+        <td>Information</td><td>4.0</td>
+        <td class="year-group">1.099</td><td>1</td>
+        <td class="year-group">0.839</td><td>2</td>
+        <td class="year-group">0.786</td><td>3</td>
+        <td class="year-group">0.585</td><td>10</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr class="top5">
+        <td>Utilities</td><td>5.2</td>
+        <td class="year-group">0.731</td><td>7</td>
+        <td class="year-group">0.739</td><td>4</td>
+        <td class="year-group">0.722</td><td>5</td>
+        <td class="year-group">0.719</td><td>5</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Admin/Waste Services</td><td>7.5</td>
+        <td class="year-group">0.729</td><td>8</td>
+        <td class="year-group">0.690</td><td>6</td>
+        <td class="year-group">0.677</td><td>7</td>
+        <td class="year-group">0.613</td><td>9</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Other Services</td><td>7.5</td>
+        <td class="year-group">0.734</td><td>6</td>
+        <td class="year-group">0.628</td><td>11</td>
+        <td class="year-group">0.681</td><td>6</td>
+        <td class="year-group">0.712</td><td>7</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Professional Services</td><td>8.2</td>
+        <td class="year-group">0.648</td><td>10</td>
+        <td class="year-group">0.670</td><td>8</td>
+        <td class="year-group">0.592</td><td>11</td>
+        <td class="year-group">0.726</td><td>4</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr>
+        <td>Mining</td><td>8.8</td>
+        <td class="year-group">0.734</td><td>5</td>
+        <td class="year-group">0.661</td><td>9</td>
+        <td class="year-group">0.602</td><td>10</td>
+        <td class="year-group">0.581</td><td>11</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr>
+        <td>Education</td><td>9.0</td>
+        <td class="year-group">0.670</td><td>9</td>
+        <td class="year-group">0.636</td><td>10</td>
+        <td class="year-group">0.648</td><td>9</td>
+        <td class="year-group">0.651</td><td>8</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr>
+        <td>Management</td><td>9.2</td>
+        <td class="year-group">0.522</td><td>16</td>
+        <td class="year-group">0.680</td><td>7</td>
+        <td class="year-group">0.673</td><td>8</td>
+        <td class="year-group">0.714</td><td>6</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr>
+        <td>Manufacturing (31-33)</td><td>12.8</td>
+        <td class="year-group">0.572</td><td>11</td>
+        <td class="year-group">0.548</td><td>12</td>
+        <td class="year-group">0.526</td><td>14</td>
+        <td class="year-group">0.522</td><td>14</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Wholesale Trade</td><td>13.8</td>
+        <td class="year-group">0.556</td><td>13</td>
+        <td class="year-group">0.527</td><td>16</td>
+        <td class="year-group">0.543</td><td>13</td>
+        <td class="year-group">0.542</td><td>13</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Arts/Entertainment</td><td>14.2</td>
+        <td class="year-group">0.550</td><td>14</td>
+        <td class="year-group">0.538</td><td>14</td>
+        <td class="year-group">0.546</td><td>12</td>
+        <td class="year-group">0.497</td><td>17</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr>
+        <td>Transportation (48-49)</td><td>14.5</td>
+        <td class="year-group">0.558</td><td>12</td>
+        <td class="year-group">0.527</td><td>15</td>
+        <td class="year-group">0.518</td><td>15</td>
+        <td class="year-group">0.499</td><td>16</td>
+        <td class="consistency-s">Stable</td>
+      </tr>
+      <tr class="bot5">
+        <td>Health Care</td><td>16.2</td>
+        <td class="year-group">0.498</td><td>17</td>
+        <td class="year-group">0.521</td><td>17</td>
+        <td class="year-group">0.508</td><td>16</td>
+        <td class="year-group">0.514</td><td>15</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr class="bot5">
+        <td>Agriculture</td><td>16.8</td>
+        <td class="year-group">0.423</td><td>19</td>
+        <td class="year-group">0.540</td><td>13</td>
+        <td class="year-group">0.491</td><td>17</td>
+        <td class="year-group">0.496</td><td>18</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr class="bot5">
+        <td>Real Estate</td><td>16.8</td>
+        <td class="year-group">0.539</td><td>15</td>
+        <td class="year-group">0.393</td><td>20</td>
+        <td class="year-group">0.431</td><td>20</td>
+        <td class="year-group">0.556</td><td>12</td>
+        <td class="consistency-m">Moderate</td>
+      </tr>
+      <tr class="bot5">
+        <td>Construction</td><td>18.5</td>
+        <td class="year-group">0.491</td><td>18</td>
+        <td class="year-group">0.483</td><td>18</td>
+        <td class="year-group">0.454</td><td>19</td>
+        <td class="year-group">0.453</td><td>19</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+      <tr class="bot5">
+        <td>Finance/Insurance</td><td>19.2</td>
+        <td class="year-group">0.368</td><td>20</td>
+        <td class="year-group">0.469</td><td>19</td>
+        <td class="year-group">0.468</td><td>18</td>
+        <td class="year-group">0.448</td><td>20</td>
+        <td class="consistency-vs">Very Stable</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="footnote">
+    <strong>Reading the table:</strong> Flag rate = total flags &divide; total records in sector. A rate &gt;1.0 means the average record triggers more than one gate. Consistency measures how stable each sector's rank is across 4 years. 7 of 20 sectors are "Very Stable" (rank changes &le;2 positions), indicating persistent structural patterns rather than year-to-year noise.
+  </div>
+
+  <!-- Part B: DART Distortion -->
+  <div class="part-b">
+    <div class="fig-label">Table 5 &mdash; Part B</div>
+    <div class="fig-title">DART Rate Distortion from Cross-Sector Misclassification</div>
+    <div class="fig-caption">When an establishment is classified in the wrong 2-digit sector, its injury data distorts the DART rate benchmarks for both the reported and correct sectors. Net importers absorb records from other sectors; net exporters lose records to other sectors. "Unknown" = records with invalid/unrecognized NAICS codes.</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align:left">Sector</th>
+          <th>Outflows</th>
+          <th>Inflows</th>
+          <th>Net Flow</th>
+          <th>Direction</th>
+          <th>Total Flagged (4yr)</th>
+          <th>Distortion %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Information</td><td>5</td><td>269</td><td class="net-imp">+264</td><td class="net-imp">net importer</td><td>6,830</td><td>3.87%</td></tr>
+        <tr><td>Transportation (48-49)</td><td>186</td><td>40</td><td class="net-exp">-146</td><td class="net-exp">net exporter</td><td>84,723</td><td>0.17%</td></tr>
+        <tr><td>Admin/Waste Services</td><td>29</td><td>113</td><td class="net-imp">+84</td><td class="net-imp">net importer</td><td>51,373</td><td>0.16%</td></tr>
+        <tr><td>Professional Services</td><td>7</td><td>79</td><td class="net-imp">+72</td><td class="net-imp">net importer</td><td>10,574</td><td>0.68%</td></tr>
+        <tr><td>Retail Trade (44-45)</td><td>103</td><td>41</td><td class="net-exp">-62</td><td class="net-exp">net exporter</td><td>270,437</td><td>0.02%</td></tr>
+        <tr><td>Wholesale Trade</td><td>56</td><td>115</td><td class="net-imp">+59</td><td class="net-imp">net importer</td><td>63,713</td><td>0.09%</td></tr>
+        <tr><td>Manufacturing (31-33)</td><td>52</td><td>109</td><td class="net-imp">+57</td><td class="net-imp">net importer</td><td>130,246</td><td>0.04%</td></tr>
+        <tr><td>Other Services</td><td>8</td><td>53</td><td class="net-imp">+45</td><td class="net-imp">net importer</td><td>17,962</td><td>0.25%</td></tr>
+        <tr><td>Construction</td><td>47</td><td>13</td><td class="net-exp">-34</td><td class="net-exp">net exporter</td><td>67,303</td><td>0.05%</td></tr>
+        <tr><td>Health Care</td><td>12</td><td>44</td><td class="net-imp">+32</td><td class="net-imp">net importer</td><td>87,518</td><td>0.04%</td></tr>
+        <tr><td>Accommodation/Food</td><td>3</td><td>33</td><td class="net-imp">+30</td><td class="net-imp">net importer</td><td>63,321</td><td>0.05%</td></tr>
+        <tr><td>Real Estate</td><td>28</td><td>8</td><td class="net-exp">-20</td><td class="net-exp">net exporter</td><td>14,921</td><td>0.13%</td></tr>
+        <tr><td>Public Administration</td><td>32</td><td>13</td><td class="net-exp">-19</td><td class="net-exp">net exporter</td><td>21,948</td><td>0.09%</td></tr>
+        <tr><td>Utilities</td><td>3</td><td>19</td><td class="net-imp">+16</td><td class="net-imp">net importer</td><td>19,167</td><td>0.08%</td></tr>
+        <tr><td>Mining</td><td>19</td><td>11</td><td class="net-exp">-8</td><td class="net-exp">net exporter</td><td>2,156</td><td>0.37%</td></tr>
+        <tr><td>Arts/Entertainment</td><td>10</td><td>2</td><td class="net-exp">-8</td><td class="net-exp">net exporter</td><td>6,932</td><td>0.12%</td></tr>
+        <tr><td>Management</td><td>6</td><td>2</td><td class="net-exp">-4</td><td class="net-exp">net exporter</td><td>4,812</td><td>0.08%</td></tr>
+        <tr><td>Education</td><td>3</td><td>6</td><td class="net-imp">+3</td><td class="net-imp">net importer</td><td>7,926</td><td>0.04%</td></tr>
+        <tr><td>Agriculture</td><td>24</td><td>23</td><td class="net-exp">-1</td><td class="net-exp">net exporter</td><td>11,669</td><td>0.01%</td></tr>
+        <tr><td>Finance/Insurance</td><td>5</td><td>5</td><td class="net-bal">0</td><td class="net-bal">balanced</td><td>1,450</td><td>0.00%</td></tr>
+      </tbody>
+    </table>
+    <div class="footnote">
+      <strong>Key finding:</strong> Information sector is the largest net importer of misclassified records (264 net inflows, 3.87% distortion), likely reflecting ambiguity between tech companies and their reported sectors. Transportation is the largest net exporter (146 net outflows), suggesting logistics firms are frequently misclassified into other sectors.
+    </div>
+  </div>
+</div>
+</body>
+</html>
